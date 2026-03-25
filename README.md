@@ -1,23 +1,23 @@
 # Penny-Pincher Provider
 
-Penny-Pincher Provider, list of awesome cheap (or almost free) LLM provider that suitable for people who unwilling to pay for AI.
+A curated list of affordable (or almost free) LLM providers for people who are unwilling to pay premium prices for AI.
 
-If you know or think other providers, welcome to create a pull request or [create new issue by click here](https://github.com/tiennm99/penny-pincher-provider/issues/new), I will check and add to this list if I have time. Thank you!
+If you know of other providers, feel free to create a pull request or [open an issue here](https://github.com/tiennm99/penny-pincher-provider/issues/new). I will review and add them when possible. Thank you!
 
-*If you find this helpful, you can support me by donate or just register with my referral link. Thank you very much!*
+*If you find this helpful, you can support me by donating or registering with my referral links. Thank you!*
 
-## Providers support coding plans
+## Providers with Coding Plans
 
-These provider provide a coding plan subscription, you can pre-pay a fee each month, then use their LLM api with a limit
+These providers offer coding plan subscriptions. You can prepay a monthly fee and use their LLM APIs with usage limits.
 
 ### [Z.ai](https://z.ai/subscribe)
 
-Offer 3 plans:
+Offers 3 plans:
 1. Lite: 3x usage of the Claude Pro plan
 2. Pro: 5x Lite plan usage
 3. Max: 4x Pro plan usage
 
-*Prices may change vary so I don't include here*
+*Prices vary based on plan duration (monthly, quarterly, or yearly) and occasional promotional offers, so check the website for current pricing.*
 
 Source: https://z.ai/subscribe [^z.ai]
 
@@ -29,7 +29,7 @@ My referral:
 
 [^z.ai]: Check at Mar 25 2026
 
-## Free providers
+## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
 
