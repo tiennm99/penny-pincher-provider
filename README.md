@@ -19,7 +19,7 @@ Offers 3 plans:
 
 *Prices vary based on plan duration (monthly, quarterly, or yearly) and occasional promotional offers, so check the website for current pricing.*
 
-Source: <https://z.ai/subscribe> [^z.ai]
+Source: <https://z.ai/subscribe> [^zai]
 
 Homepage: <https://docs.z.ai/devpack/overview>
 
@@ -27,7 +27,7 @@ My referral:
 
 >🚀 You've been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline, and 20+ top coding tools — starting at just $10/month. Subscribe now and grab the limited-time deal! Link： https://z.ai/subscribe?ic=PLKIAYEIPW
 
-[^z.ai]: Check at Mar 25 2026
+[^zai]: Checked on Mar 25, 2026
 
 ## Free Providers
 
@@ -38,6 +38,7 @@ My referral:
 > - If you purchase at least 10 credits, your daily limit is increased to 1000 :free model requests per day.
 
 Source: <https://openrouter.ai/docs/api/reference/limits> [^openrouter]
-[^openrouter]: Check at Mar 25 2026
 
 Homepage: <https://openrouter.ai>
+
+[^openrouter]: Checked on Mar 25, 2026
