@@ -2,7 +2,9 @@
 
 Penny-Pincher Provider, list of awesome cheap (or almost free) LLM provider that suitable for people who unwilling to pay for AI.
 
-*If you find this helpful, you can support me by donate or just register with my referral link. Thank you*
+If you know or think other providers, welcome to create a pull request or [create new issue by click here](https://github.com/tiennm99/penny-pincher-provider/issues/new), I will check and add to this list if I have time. Thank you!
+
+*If you find this helpful, you can support me by donate or just register with my referral link. Thank you very much!*
 
 ## Providers support coding plans
 
