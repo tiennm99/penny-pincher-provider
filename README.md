@@ -19,9 +19,9 @@ Offers 3 plans:
 
 *Prices vary based on plan duration (monthly, quarterly, or yearly) and occasional promotional offers, so check the website for current pricing.*
 
-Source: https://z.ai/subscribe [^z.ai]
+Source: <https://z.ai/subscribe> [^z.ai]
 
-Homepage: https://docs.z.ai/devpack/overview
+Homepage: <https://docs.z.ai/devpack/overview>
 
 My referral:
 
@@ -37,7 +37,7 @@ My referral:
 > - If you have purchased less than 10 credits, you’re limited to 50 :free model requests per day.
 > - If you purchase at least 10 credits, your daily limit is increased to 1000 :free model requests per day.
 
-Source: https://openrouter.ai/docs/api/reference/limits [^openrouter]
+Source: <https://openrouter.ai/docs/api/reference/limits> [^openrouter]
 [^openrouter]: Check at Mar 25 2026
 
-Homepage: https://openrouter.ai
+Homepage: <https://openrouter.ai>
