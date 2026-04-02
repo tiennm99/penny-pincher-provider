@@ -29,6 +29,24 @@ My referral:
 
 [^zai]: Checked on Mar 25, 2026
 
+### [MiniMax](https://platform.minimax.io)
+
+Offers a Token Plan — a unified subscription for multimodal AI (text, speech, video, image, music). Pricing is based on **API calls, not tokens** — very generous!
+
+Plans (monthly):
+- Starter: $10/month — 1,500 M2.7 requests per 5-hour rolling window
+- Plus: $20/month — more requests + speech, image, music generation
+- Max: $50/month — even higher quotas across all models
+- Highspeed tiers ($40–$150/month) — dedicated M2.7-highspeed access, up to 30,000 requests per 5-hour window
+
+Includes access to M2.7 language model, Speech 2.8, Image-01, Hailuo video, and Music-2.5. Yearly plans available with ~17% discount.
+
+Source: <https://platform.minimax.io/docs/token-plan/intro>, <https://platform.minimax.io/docs/guides/pricing-token-plan> [^minimax]
+
+Homepage: <https://platform.minimax.io>
+
+[^minimax]: Checked on Apr 02, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
