@@ -2,6 +2,10 @@
 
 A curated list of affordable (or almost free) LLM providers for people who are unwilling to pay premium prices for AI.
 
+> **Note:** [Claude](https://claude.ai) is arguably the best AI coding assistant out there — but it's expensive. If you want to try it before committing, you can use my guest pass for **1 week of free Claude Pro** (includes Claude Code): <https://claude.ai/referral/ZkoAngod1A>
+>
+> Guest passes are limited and available on a first-come, first-served basis. New users only — you'll need to enter payment info to activate, but you can cancel before the trial ends to avoid charges. [Learn more](https://support.claude.com/en/articles/13456702-claude-code-guest-passes).
+
 If you know of other providers, feel free to create a pull request or [open an issue here](https://github.com/tiennm99/penny-pincher-provider/issues/new). I will review and add them when possible. Thank you!
 
 *If you find this helpful, you can support me by donating or registering with my referral links. Thank you!*
