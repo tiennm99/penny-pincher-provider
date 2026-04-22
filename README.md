@@ -84,6 +84,26 @@ Homepage: <https://www.alibabacloud.com/product/modelstudio>
 
 [^alicp]: Checked on Apr 22, 2026
 
+### [BytePlus ModelArk — Coding Plan](https://www.byteplus.com/en/activity/codingplan)
+
+ByteDance's ModelArk coding subscription — flat monthly fee, works with mainstream coding tools, models swappable per task.
+
+Standard plans:
+- Lite: $5/month
+- Pro: $25/month
+
+Models include latest ByteDance-Seed-2.0-pro/lite, DeepSeek-V3.2, GLM-4.7, Kimi-K2.5, and GPT-OSS variants.
+
+Supported tools: Claude Code, Cursor, Cline (VS Code), Kilo Code, Roo Code, OpenCode, TRAE, and more.
+
+*Note: new-user first-purchase promo pricing was suspended on Mar 17, 2026 — everyone now pays the list price.*
+
+Source: <https://www.byteplus.com/en/activity/codingplan>, <https://docs.byteplus.com/en/docs/ModelArk/1925114> [^byteplus]
+
+Homepage: <https://console.byteplus.com/ark>
+
+[^byteplus]: Checked on Apr 22, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
