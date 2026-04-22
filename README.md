@@ -122,6 +122,26 @@ Homepage: <https://opencode.ai>
 
 [^opencodego]: Checked on Apr 22, 2026
 
+### [Synthetic](https://synthetic.new/)
+
+> Run open-source AI models for you in private, secure datacenters.
+
+Privacy-first inference: Synthetic never trains on your data and doesn't store API prompts or completions.
+
+Pricing:
+- Subscription: $30/month (app-based access)
+- Usage-based: pay-as-you-go, no charge for unused capacity
+
+Models include Kimi K2.5, MiniMax M2.5, GLM 5.1, GLM 4.7 Flash, plus any vLLM-compatible open-source LLM.
+
+OpenAI-compatible — works with Roo, Cline, Octofriend, and any other OpenAI-API-compatible client.
+
+Source: <https://synthetic.new/> [^synthetic]
+
+Homepage: <https://synthetic.new>
+
+[^synthetic]: Checked on Apr 22, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
