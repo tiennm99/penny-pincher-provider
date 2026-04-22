@@ -155,3 +155,21 @@ Source: <https://openrouter.ai/docs/api/reference/limits> [^openrouter]
 Homepage: <https://openrouter.ai>
 
 [^openrouter]: Checked on Mar 25, 2026
+
+### [Kilo Code — Gateway](https://kilo.ai/gateway)
+
+Open-source agentic coding extension for VS Code, JetBrains, and CLI. Its built-in Kilo Gateway routes LLM requests to any provider and ships with a genuine free path — no subscription required.
+
+Free access:
+- Free models (IDs ending in `:free`) cost nothing — usage is tracked but not billed, rate-limited to 200 requests/hour per IP
+- `kilo-auto/free` auto-routes among available free models (e.g. GLM 4.7, MiniMax M2.1)
+- Signup grants $5 in free credits (one-time) usable on paid models
+- Bring-your-own-keys works for any provider — no Kilo subscription required
+
+Paid Kilo Pass tiers are available for higher throughput on premium models (Starter $19, Pro $49, Expert $199/month), but the free path covers most casual coding use.
+
+Source: <https://kilo.ai/pricing>, <https://kilo.ai/docs/getting-started/using-kilo-for-free>, <https://kilo.ai/docs/gateway/usage-and-billing> [^kilo]
+
+Homepage: <https://kilo.ai>
+
+[^kilo]: Checked on Apr 22, 2026
