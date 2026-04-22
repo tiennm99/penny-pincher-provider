@@ -63,6 +63,27 @@ Homepage: <https://www.kimi.com/code>
 
 [^kimicode]: Checked on Apr 22, 2026
 
+### [Alibaba Cloud Model Studio — Coding Plan](https://www.alibabacloud.com/help/en/model-studio/coding-plan)
+
+Monthly subscription for AI coding tools — top Qwen/Kimi/GLM/MiniMax models at fixed, predictable pricing.
+
+Pro plan: $50/month
+- 6,000 requests per 5-hour sliding window
+- 45,000 requests per week (resets Monday 00:00 UTC+8)
+- 90,000 requests per month (resets on subscription anniversary)
+
+Models include qwen3.5-plus, qwen3-max, qwen3-coder, kimi-k2.5, glm-5, and MiniMax-M2.5.
+
+Supported tools: Claude Code, Cursor, Cline (VS Code), OpenCode, Qwen Code, Kilo Code, Kilo CLI, OpenClaw, Codex, and more.
+
+*Note: the Lite plan stopped accepting new subscriptions on Mar 20, 2026.*
+
+Source: <https://www.alibabacloud.com/help/en/model-studio/coding-plan> [^alicp]
+
+Homepage: <https://www.alibabacloud.com/product/modelstudio>
+
+[^alicp]: Checked on Apr 22, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
