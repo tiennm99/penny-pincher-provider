@@ -104,6 +104,24 @@ Homepage: <https://console.byteplus.com/ark>
 
 [^byteplus]: Checked on Apr 22, 2026
 
+### [opencode — Go](https://opencode.ai/go)
+
+A subscription tier for the open-source `opencode` CLI that pools access to ~10 open-source coding models behind one flat price — aimed at developers who want generous request limits without premium-provider fees.
+
+Pricing:
+- $5 first month, $10/month thereafter
+- Top up extra credit as needed; cancel anytime
+
+Models include GLM-5.1, GLM-5, Kimi K2.6 (3× quotas through Apr 27), Kimi K2.5, MiMo-V2-Pro/Omni, Qwen3.5/3.6 Plus, MiniMax M2.5/M2.7.
+
+Per-5-hour request limits vary by model tier (≈200 to 10,200).
+
+Source: <https://opencode.ai/go> [^opencodego]
+
+Homepage: <https://opencode.ai>
+
+[^opencodego]: Checked on Apr 22, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
