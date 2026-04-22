@@ -51,6 +51,18 @@ Homepage: <https://platform.minimax.io>
 
 [^minimax]: Checked on Apr 02, 2026
 
+### [Kimi Code](https://www.kimi.com/code)
+
+A coding-focused perk included with Kimi membership — drops into any dev workflow (terminal, IDE, or Kimi CLI) and is backed by Moonshot's Kimi K-series models, which are sharply priced per token.
+
+Usage quotas are tracked on a rolling 5-hour window and scale with your Kimi membership tier. Since Kimi Code ships as part of Kimi membership rather than a standalone plan, check the membership page for the current tier list and pricing.
+
+Source: <https://www.kimi.com/code>, <https://www.kimi.com/membership/pricing> [^kimicode]
+
+Homepage: <https://www.kimi.com/code>
+
+[^kimicode]: Checked on Apr 22, 2026
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
