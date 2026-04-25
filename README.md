@@ -180,3 +180,21 @@ Source: <https://kilo.ai/pricing>, <https://kilo.ai/docs/getting-started/using-k
 Homepage: <https://kilo.ai>
 
 [^kilo]: Checked on Apr 22, 2026
+
+### [NVIDIA NIM](https://build.nvidia.com)
+
+NVIDIA-hosted inference for 50+ open models — free for NVIDIA Developer Program members, no credit card required. OpenAI-compatible API at `https://integrate.api.nvidia.com/v1` works out of the box with Cline, Roo, OpenCode, and any OpenAI-compatible client.
+
+Free access:
+- Sign up for the free Developer Program → generate an `nvapi-` API key on build.nvidia.com
+- 1,000 inference credits on signup (some accounts report rate-limit-only model since early 2025)
+- Personal-account rate limits shown in dashboard top-right — typically ~40 RPM and 1,000 requests/month, resetting on the 1st
+- Models include Kimi K2.5, GPT-OSS, DeepSeek-V3.2, Llama 3.x, Mistral, Phi, and NVIDIA's own Nemotron family
+
+Paid self-hosted NIM containers and pay-as-you-go API are available for higher throughput; the hosted free tier is fine for evaluation and light coding use.
+
+Source: <https://build.nvidia.com>, <https://developer.nvidia.com/nim> [^nim]
+
+Homepage: <https://build.nvidia.com>
+
+[^nim]: Checked on Apr 25, 2026
