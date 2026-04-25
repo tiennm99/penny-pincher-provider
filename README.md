@@ -49,7 +49,14 @@ Source: <https://platform.minimax.io/docs/token-plan/intro>, <https://platform.m
 
 Homepage: <https://platform.minimax.io>
 
-[^minimax]: Checked on Apr 02, 2026
+My referral:
+
+>🎁 MiniMax Token Plan New Year Mega Offer! Invite friends and earn rewards for both!
+>Exclusive 10% OFF for friends. Ready-to-use API vouchers for you!
+>Token Plan Referral Program until **May 1, 2026** — referred users get 10% off their subscription and join the dev ambassador community; referrers earn 10% back in API vouchers per paid referral, usable across all MiniMax models, plus priority access to events and model previews.
+>👉 Get your referral link: https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link
+
+[^minimax]: Checked on Apr 25, 2026
 
 ### [Kimi Code](https://www.kimi.com/code)
 
