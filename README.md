@@ -162,6 +162,45 @@ Homepage: <https://synthetic.new>
 
 ## Free Providers
 
+> Sorted by attractiveness — biggest recurring free quota, model quality, and lowest friction first.
+
+### [LongCat AI](https://longcat.chat/platform)
+
+Meituan's open-source LongCat models. API platform in public beta — no paid tier yet.
+
+Free quota (resets daily 00:00 Beijing Time, no rollover):
+- `LongCat-Flash-Lite`: **50M tokens/day** (no upgrade path — uniformly free)
+- `LongCat-Flash-Chat`: 500K tokens/day
+- `LongCat-Flash-Thinking` / `Thinking-2601`: 500K tokens/day each
+- `LongCat-Flash-Omni-2603` (multimodal): 500K tokens/day
+- `LongCat-2.0-Preview`: 10M tokens / 2 hours (invite-only, 1M context)
+
+Both OpenAI-compatible (`https://api.longcat.chat/openai`) and Anthropic-compatible (`https://api.longcat.chat/anthropic`) endpoints. 256K context on most models.
+
+Source: <https://longcat.chat/platform/docs/> [^longcat]
+
+Homepage: <https://longcat.chat/platform>
+
+[^longcat]: Checked on Apr 28, 2026
+
+### [Cerebras Cloud](https://cloud.cerebras.ai)
+
+World-fastest LLM inference (wafer-scale chip), OpenAI-compatible. Free tier — no credit card required.
+
+Free tier limits:
+- 1M tokens/day shared cap across free models
+- 30 RPM most models (10 RPM for `zai-glm-4.7`)
+- 60K TPM per model
+- Free models: `gpt-oss-120b`, `llama3.1-8b`, `qwen-3-235b-a22b-instruct-2507`, `zai-glm-4.7`
+
+Pay-as-you-go tier removes daily and per-minute caps for higher throughput.
+
+Source: <https://inference-docs.cerebras.ai/support/rate-limits> [^cerebras]
+
+Homepage: <https://www.cerebras.ai/inference>
+
+[^cerebras]: Checked on Apr 28, 2026
+
 ### [OpenRouter](https://openrouter.ai)
 
 > Free usage limits: If you’re using a free model variant (with an ID ending in :free), you can make up to 20 requests per minute. The following per-day limits apply:
@@ -173,6 +212,94 @@ Source: <https://openrouter.ai/docs/api/reference/limits> [^openrouter]
 Homepage: <https://openrouter.ai>
 
 [^openrouter]: Checked on Mar 25, 2026
+
+### [Groq](https://console.groq.com)
+
+Fast LPU inference, OpenAI-compatible. Free tier with no credit card.
+
+Free tier (per-model, organization-level):
+- `llama-3.1-8b-instant`: 30 RPM, 14.4K RPD, 6K TPM, 500K TPD
+- `llama-3.3-70b-versatile`: 30 RPM, 1K RPD, 12K TPM, 100K TPD
+- `whisper-large-v3` (audio): 20 RPM, 2K RPD
+- Also free: `gemma2-9b-it`, `allam-2-7b`, `gpt-oss` variants
+
+Upgrade to Developer plan for higher RPM/TPD, Batch and Flex processing.
+
+Source: <https://console.groq.com/docs/rate-limits> [^groq]
+
+Homepage: <https://groq.com>
+
+[^groq]: Checked on Apr 28, 2026
+
+### [NVIDIA NIM](https://build.nvidia.com)
+
+NVIDIA-hosted inference for 50+ open models — free for NVIDIA Developer Program members, no credit card required. OpenAI-compatible API at `https://integrate.api.nvidia.com/v1` works out of the box with Cline, Roo, OpenCode, and any OpenAI-compatible client.
+
+Free access:
+- Sign up for the free Developer Program → generate an `nvapi-` API key on build.nvidia.com
+- 1,000 inference credits on signup (some accounts report rate-limit-only model since early 2025)
+- Personal-account rate limits shown in dashboard top-right — typically ~40 RPM and 1,000 requests/month, resetting on the 1st
+- Models include Kimi K2.5, GPT-OSS, DeepSeek-V3.2, Llama 3.x, Mistral, Phi, and NVIDIA's own Nemotron family
+
+Paid self-hosted NIM containers and pay-as-you-go API are available for higher throughput; the hosted free tier is fine for evaluation and light coding use.
+
+Source: <https://build.nvidia.com>, <https://developer.nvidia.com/nim> [^nim]
+
+Homepage: <https://build.nvidia.com>
+
+[^nim]: Checked on Apr 25, 2026
+
+### [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)
+
+Serverless inference on Cloudflare's global edge network. Free tier on both Free and Paid Workers plans.
+
+Free allowance:
+- **10,000 Neurons/day** (resets 00:00 UTC); failures with 429 after exhaustion
+- 50+ models: LLMs (Llama 3.3 70B, Gemma 3, Qwen2.5-Coder, DeepSeek R1), embeddings (BGE), Whisper transcription, image generation
+- Example mileage: ~150 LLM responses/day on Llama 3.3 70B, or ~500 audio-seconds Whisper
+- Overage billed at $0.011 per 1,000 Neurons on paid plan
+
+Requires Cloudflare account API token + Account ID.
+
+Source: <https://developers.cloudflare.com/workers-ai/platform/pricing/> [^cfworkersai]
+
+Homepage: <https://developers.cloudflare.com/workers-ai/>
+
+[^cfworkersai]: Checked on Apr 28, 2026
+
+### [Google Cloud Vertex AI (free trial credits)](https://cloud.google.com/vertex-ai)
+
+Not a free-forever tier — but new GCP customers get **$300 in free credits valid for 90 days**, usable across Vertex AI for Gemini 3 Pro/Flash, Anthropic Claude on Vertex, and Vertex Partner models (DeepSeek, GLM, Qwen via MaaS).
+
+Setup:
+- Sign up at <https://cloud.google.com/free> (credit card required for verification, not charged unless you upgrade)
+- Enable Vertex AI API in your GCP project
+- $300 expires after 90 days; account does not auto-convert to paid
+- Model access varies by region; Gemini 3 Pro/Flash available in most regions
+
+Practical for short-term heavy evaluation; not a long-term free path.
+
+Source: <https://cloud.google.com/free>, <https://cloud.google.com/vertex-ai/generative-ai/pricing> [^vertex]
+
+Homepage: <https://console.cloud.google.com/vertex-ai>
+
+[^vertex]: Checked on Apr 28, 2026
+
+### [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/)
+
+EU/GDPR-compliant inference hosted in Paris, France. Privacy-first — provider does not log or train on inputs/outputs.
+
+Free tier:
+- **1,000,000 free tokens** for every new customer (no time limit advertised)
+- Models: Qwen3 (235B / 397B / coder-30B), Llama 3.3 70B, Mistral Small 3.2 24B, DeepSeek R1 distill, Pixtral, Gemma, embeddings
+- Higher rate limits unlocked after KYC + payment method on file
+- Beyond free tokens, paid pricing typically €0.20–€0.90 per 1M tokens
+
+Source: <https://www.scaleway.com/en/generative-apis/>, <https://www.scaleway.com/en/pricing/model-as-a-service/> [^scaleway]
+
+Homepage: <https://console.scaleway.com>
+
+[^scaleway]: Checked on Apr 28, 2026
 
 ### [Kilo Code — Gateway](https://kilo.ai/gateway)
 
@@ -192,20 +319,37 @@ Homepage: <https://kilo.ai>
 
 [^kilo]: Checked on Apr 22, 2026
 
-### [NVIDIA NIM](https://build.nvidia.com)
+### [Kiro (by AWS)](https://kiro.dev)
 
-NVIDIA-hosted inference for 50+ open models — free for NVIDIA Developer Program members, no credit card required. OpenAI-compatible API at `https://integrate.api.nvidia.com/v1` works out of the box with Cline, Roo, OpenCode, and any OpenAI-compatible client.
+AWS's AI coding IDE/agent — backed by Claude Sonnet/Haiku/Opus and other frontier models. Free tier requires only an AWS Builder ID, social login, or AWS IAM Identity Center sign-in.
 
-Free access:
-- Sign up for the free Developer Program → generate an `nvapi-` API key on build.nvidia.com
-- 1,000 inference credits on signup (some accounts report rate-limit-only model since early 2025)
-- Personal-account rate limits shown in dashboard top-right — typically ~40 RPM and 1,000 requests/month, resetting on the 1st
-- Models include Kimi K2.5, GPT-OSS, DeepSeek-V3.2, Llama 3.x, Mistral, Phi, and NVIDIA's own Nemotron family
+Free tier:
+- **50 credits/month** (perpetual)
+- **500 bonus credits** for new signups (usable within 30 days)
+- Default Auto agent picks among Sonnet 4.5 and other models; manual selection includes Sonnet 4 / 4.5, Haiku 4.5, Opus 4.5 / 4.6 / 4.7
+- Other models (GLM, MiniMax, Qwen, DeepSeek, Kimi) available regionally
+- Unused credits don't roll over; overage on paid tiers is $0.04/credit
 
-Paid self-hosted NIM containers and pay-as-you-go API are available for higher throughput; the hosted free tier is fine for evaluation and light coding use.
+Paid tiers: Pro $20, Pro+ $40, Power $200 — with 1,000–10,000 credits/month.
 
-Source: <https://build.nvidia.com>, <https://developer.nvidia.com/nim> [^nim]
+Source: <https://kiro.dev/pricing/> [^kiro]
 
-Homepage: <https://build.nvidia.com>
+Homepage: <https://kiro.dev>
 
-[^nim]: Checked on Apr 25, 2026
+[^kiro]: Checked on Apr 28, 2026
+
+### [Pollinations AI](https://pollinations.ai)
+
+Open-source Gen-AI platform (Berlin) for text, image, audio, and video generation. OpenAI-compatible endpoints.
+
+Free access (post-2026 key migration):
+- **Publishable key** (free, beta): 1 pollen/IP/hour — for client-side, demos, prototypes
+- **Secret key**: server-side only, no rate limit listed (still free during beta)
+- Sign up at <https://enter.pollinations.ai>; ~$1 ≈ 1 Pollen for paid pay-as-you-go
+- Models: DeepSeek V4 Flash/Pro, Flux, GPT Image, Seedream, Whisper, ElevenLabs voices, Veo (alpha)
+
+Source: <https://github.com/pollinations/pollinations> [^pollinations]
+
+Homepage: <https://pollinations.ai>
+
+[^pollinations]: Checked on Apr 28, 2026
