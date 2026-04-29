@@ -10,12 +10,9 @@ My passes:
 
 - ~~<https://claude.ai/referral/ZkoAngod1A>~~ — **out of stock as of 2026-04-30**
 
-<details>
-<summary>Friend's passes (click to reveal)</summary>
+Friend's passes:
 
 - <https://claude.ai/referral/7RBJExZ7LA>
-
-</details>
 
 If you know of other providers, feel free to create a pull request or [open an issue here](https://github.com/tiennm99/penny-pincher-provider/issues/new). I will review and add them when possible. Thank you!
 
