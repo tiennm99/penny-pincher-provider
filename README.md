@@ -191,6 +191,24 @@ Homepage: <https://longcat.chat/platform>
 
 [^longcat]: Checked on Apr 28, 2026
 
+### [Mistral La Plateforme](https://console.mistral.ai)
+
+Mistral's developer platform. **Free Experiment plan** — full model access with rate-limited prototyping quotas.
+
+Free tier:
+- **Up to ~1B tokens/month** for prototyping (third-party reports; specific RPM not published)
+- All models incl. Mistral Large 3, Medium 3, Small 3.1, **Codestral**, Pixtral, embeddings
+- No credit card required — phone verification only
+- Up to $30K startup credits via separate Startup Program
+
+OpenAI-compatible. Upgrade to Scale plan for production rate limits.
+
+Source: <https://docs.mistral.ai/deployment/ai-studio/tier>, <https://mistral.ai/pricing> [^mistral]
+
+Homepage: <https://console.mistral.ai>
+
+[^mistral]: Checked on Apr 30, 2026
+
 ### [Cerebras Cloud](https://cloud.cerebras.ai)
 
 World-fastest LLM inference (wafer-scale chip), OpenAI-compatible. Free tier — no credit card required.
@@ -208,6 +226,25 @@ Source: <https://inference-docs.cerebras.ai/support/rate-limits> [^cerebras]
 Homepage: <https://www.cerebras.ai/inference>
 
 [^cerebras]: Checked on Apr 28, 2026
+
+### [xAI Grok API](https://x.ai/api)
+
+xAI's frontier Grok models — Grok 4, Grok 4.1 Fast (2M context), Grok Code Fast. OpenAI + Anthropic compatible at `https://api.x.ai/v1`.
+
+Free tier (combined up to **$175 in month one**):
+- **$25 in free signup credits** (one-time)
+- **+$150/month** via Data Sharing Program (recurring, eligible countries)
+- Min $5 API spend required before opting in to data sharing
+
+Pricing (Grok 4.1 Fast): $0.20/M input, $0.50/M output. Server-side tools (web search, code execution) +$5/1K calls.
+
+⚠️ **Privacy caveat:** Data Sharing opt-in lets xAI train future models on your prompts and responses. **Opt-in is irreversible** at the team level.
+
+Source: <https://docs.x.ai/developers/models>, <https://x.ai/api> [^xai]
+
+Homepage: <https://x.ai/api>
+
+[^xai]: Checked on Apr 30, 2026
 
 ### [OpenRouter](https://openrouter.ai)
 
@@ -238,6 +275,24 @@ Source: <https://console.groq.com/docs/rate-limits> [^groq]
 Homepage: <https://groq.com>
 
 [^groq]: Checked on Apr 28, 2026
+
+### [GitHub Models](https://docs.github.com/github-models/prototyping-with-ai-models)
+
+Single-API gateway to OpenAI, Anthropic, Llama, Mistral, DeepSeek, Grok, Phi, and more — free for any GitHub account. OpenAI-compatible at `https://models.github.ai/inference`.
+
+Free tier:
+- Rate-limited free access for **all GitHub accounts** (no extra signup)
+- Per-model RPM/RPD vary (e.g. GPT-4o: 10 RPM / 50 RPD; DeepSeek-R1: 15 RPM / 150 RPD)
+- Personal Access Token with `models:read` permission required
+- Pay-as-you-go available beyond free tier; BYOK supported
+
+⚠️ **Note:** Copilot Pro/Pro+ migrate to usage-based billing on Jun 1, 2026, and new Copilot Pro/Pro+ signups paused since Apr 20, 2026 — monitor changes if relying on Copilot tier limits.
+
+Source: <https://docs.github.com/github-models/prototyping-with-ai-models>, <https://docs.github.com/billing/managing-billing-for-your-products/about-billing-for-github-models> [^ghmodels]
+
+Homepage: <https://github.com/marketplace/models>
+
+[^ghmodels]: Checked on Apr 30, 2026
 
 ### [NVIDIA NIM](https://build.nvidia.com)
 
@@ -312,6 +367,28 @@ Source: <https://cloud.google.com/free>, <https://cloud.google.com/vertex-ai/gen
 Homepage: <https://console.cloud.google.com/vertex-ai>
 
 [^vertex]: Checked on Apr 30, 2026
+
+### [DeepSeek Platform](https://platform.deepseek.com)
+
+DeepSeek's official API — flagship V4 / V3.2 / R1 models direct from the source. Notoriously cheap, no credit card to sign up.
+
+Free tier:
+- **5M free tokens** at signup (no promo code, applied automatically)
+- Approx. 2,500 standard API calls or ~10M characters processed
+- No credit card required
+
+Pricing (PAYG):
+- DeepSeek V4 Flash: $0.14/M input, $0.28/M output
+- **DeepSeek V4 Pro: 75% off until May 5, 2026** ($0.435/M input, $0.87/M output)
+- Cached input: $0.03/M (90% discount)
+
+OpenAI + Anthropic compatible at `https://api.deepseek.com`.
+
+Source: <https://api-docs.deepseek.com/quick_start/pricing> [^deepseek]
+
+Homepage: <https://platform.deepseek.com>
+
+[^deepseek]: Checked on Apr 30, 2026
 
 ### [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/)
 
@@ -411,3 +488,20 @@ Source: <https://fireworks.ai/pricing>, <https://docs.fireworks.ai/tools-sdks/op
 Homepage: <https://fireworks.ai>
 
 [^fireworks]: Checked on Apr 30, 2026
+
+### [Modal Labs](https://modal.com) — Self-Host
+
+Serverless GPU platform for deploying your own LLMs (vLLM, TGI, custom models). Different paradigm: not a pre-hosted LLM API, you bring/deploy the model.
+
+Free tier (Starter plan):
+- **$30/month recurring credits** (free, no credit card to start)
+- 3 workspace seats, 100 containers, 10 concurrent GPUs
+- Pay-per-use beyond credits — only pay for actual compute
+
+Use case: deploy any open-source LLM as your own OpenAI-compatible endpoint, full control over model + privacy.
+
+Source: <https://modal.com/pricing>, <https://modal.com/blog/how-to-deploy-vllm> [^modal]
+
+Homepage: <https://modal.com>
+
+[^modal]: Checked on Apr 30, 2026
