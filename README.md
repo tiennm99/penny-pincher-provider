@@ -24,22 +24,26 @@ These providers offer coding plan subscriptions. You can prepay a monthly fee an
 
 ### [Z.ai](https://z.ai/subscribe)
 
-Offers 3 plans:
+Offers 3 plans (starting from **$18/month**):
 1. Lite: 3x usage of the Claude Pro plan
 2. Pro: 5x Lite plan usage
 3. Max: 4x Pro plan usage
 
 *Prices vary based on plan duration (monthly, quarterly, or yearly) and occasional promotional offers, so check the website for current pricing.*
 
-Source: <https://z.ai/subscribe> [^zai]
+**Notice (Apr 30, 2026):** Auto-renewal on legacy plans (no weekly limit version) is being disabled. Affected users receive 2 months gift on the new equivalent plan.
+
+Models: GLM-5.1, GLM-5-Turbo. OpenAI-compatible API + Anthropic-compatible endpoint.
+
+Source: <https://z.ai/subscribe>, <https://docs.z.ai/devpack/overview> [^zai]
 
 Homepage: <https://docs.z.ai/devpack/overview>
 
 My referral:
 
->🚀 You've been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline, and 20+ top coding tools — starting at just $10/month. Subscribe now and grab the limited-time deal! Link： https://z.ai/subscribe?ic=PLKIAYEIPW
+>🚀 You've been invited to join the GLM Coding Plan! Enjoy full support for Claude Code, Cline, and 20+ top coding tools — starting at just $18/month. Subscribe now and grab the limited-time deal! Link： https://z.ai/subscribe?ic=PLKIAYEIPW
 
-[^zai]: Checked on Mar 25, 2026
+[^zai]: Checked on Apr 30, 2026
 
 ### [MiniMax](https://platform.minimax.io)
 
@@ -47,7 +51,7 @@ Offers a Token Plan — a unified subscription for multimodal AI (text, speech, 
 
 Plans (monthly):
 - Starter: $10/month — 1,500 M2.7 requests per 5-hour rolling window
-- Plus: $20/month — more requests + speech, image, music generation
+- Plus: $20/month — **4,500 M2.7 requests** per 5-hour window + speech, image, music generation
 - Max: $50/month — even higher quotas across all models
 - Highspeed tiers ($40–$150/month) — dedicated M2.7-highspeed access, up to 30,000 requests per 5-hour window
 
@@ -61,22 +65,27 @@ My referral:
 
 >🎁 MiniMax Token Plan New Year Mega Offer! Invite friends and earn rewards for both!
 >Exclusive 10% OFF for friends. Ready-to-use API vouchers for you!
->Token Plan Referral Program until **May 1, 2026** — referred users get 10% off their subscription and join the dev ambassador community; referrers earn 10% back in API vouchers per paid referral, usable across all MiniMax models, plus priority access to events and model previews.
+>Token Plan Referral Program **ends May 1, 2026** — referred users get 10% off their subscription and join the dev ambassador community; referrers earn 10% back in API vouchers per paid referral, usable across all MiniMax models, plus priority access to events and model previews.
 >👉 Get your referral link: https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link
 
-[^minimax]: Checked on Apr 25, 2026
+[^minimax]: Checked on Apr 30, 2026
 
 ### [Kimi Code](https://www.kimi.com/code)
 
 A coding-focused perk included with Kimi membership — drops into any dev workflow (terminal, IDE, or Kimi CLI) and is backed by Moonshot's Kimi K-series models, which are sharply priced per token.
 
-Usage quotas are tracked on a rolling 5-hour window and scale with your Kimi membership tier. Since Kimi Code ships as part of Kimi membership rather than a standalone plan, check the membership page for the current tier list and pricing.
+Tiers:
+- **Adagio** — free tier, unlimited basic conversations
+- **Andante** — paid, higher K2.5 quotas
+- **Presto** — paid, top quotas
+
+Usage quotas tracked on a rolling 5-hour window and scale with membership tier. Pay-as-you-go API also available via `platform.moonshot.ai`.
 
 Source: <https://www.kimi.com/code>, <https://www.kimi.com/membership/pricing> [^kimicode]
 
 Homepage: <https://www.kimi.com/code>
 
-[^kimicode]: Checked on Apr 22, 2026
+[^kimicode]: Checked on Apr 30, 2026
 
 ### [Alibaba Cloud Model Studio — Coding Plan](https://www.alibabacloud.com/help/en/model-studio/coding-plan)
 
@@ -97,7 +106,7 @@ Source: <https://www.alibabacloud.com/help/en/model-studio/coding-plan> [^alicp]
 
 Homepage: <https://www.alibabacloud.com/product/modelstudio>
 
-[^alicp]: Checked on Apr 22, 2026
+[^alicp]: Checked on Apr 30, 2026
 
 ### [BytePlus ModelArk — Coding Plan](https://www.byteplus.com/en/activity/codingplan)
 
@@ -107,7 +116,7 @@ Standard plans:
 - Lite: $5/month
 - Pro: $25/month
 
-Models include latest ByteDance-Seed-2.0-pro/lite, DeepSeek-V3.2, GLM-4.7, Kimi-K2.5, and GPT-OSS variants.
+Models include latest ByteDance-Seed-2.0-pro/lite, DeepSeek-V3.2, **GLM-5.1**, GLM-4.7, Kimi-K2.5, and GPT-OSS variants.
 
 Supported tools: Claude Code, Cursor, Cline (VS Code), Kilo Code, Roo Code, OpenCode, TRAE, and more.
 
@@ -117,7 +126,7 @@ Source: <https://www.byteplus.com/en/activity/codingplan>, <https://docs.byteplu
 
 Homepage: <https://console.byteplus.com/ark>
 
-[^byteplus]: Checked on Apr 22, 2026
+[^byteplus]: Checked on Apr 30, 2026
 
 ### [opencode — Go](https://opencode.ai/go)
 
@@ -131,11 +140,13 @@ Models include GLM-5.1, GLM-5, Kimi K2.6 (3× quotas through Apr 27), Kimi K2.5,
 
 Per-5-hour request limits vary by model tier (≈200 to 10,200).
 
-Source: <https://opencode.ai/go> [^opencodego]
+**API portability:** The `opencode-go` API key is portable — works with Claude Code (via `oc-go-cc` or LiteLLM proxy), Cline (OpenAI-compatible), and any OpenAI-API-compatible client. Model IDs use `opencode-go/<model-id>` format.
+
+Source: <https://opencode.ai/go>, <https://opencode.ai/docs/go/> [^opencodego]
 
 Homepage: <https://opencode.ai>
 
-[^opencodego]: Checked on Apr 22, 2026
+[^opencodego]: Checked on Apr 30, 2026
 
 ### [Synthetic](https://synthetic.new/)
 
@@ -264,6 +275,24 @@ Homepage: <https://developers.cloudflare.com/workers-ai/>
 
 [^cfworkersai]: Checked on Apr 28, 2026
 
+### [Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers)
+
+Routes requests across multiple inference backends (Together, Fireworks, Novita, Cerebras, Replicate, DeepInfra, Scaleway, etc.) behind a single API. OpenAI-compatible.
+
+Free tier:
+- **100,000 monthly Inference Provider credits** (recurring, free account)
+- PRO ($9/month): 2M monthly credits + $2 inference credits/month — 20× free tier
+- Free models include open-source LLMs across all routed backends
+- OpenAI-compatible endpoint at `https://router.huggingface.co/v1` (chat completion only)
+
+Sign-up free, no credit card. Other tasks (text-to-image, embeddings, speech) use HF inference clients.
+
+Source: <https://huggingface.co/docs/inference-providers/pricing>, <https://huggingface.co/changelog/inference-providers-openai-compatible> [^hfip]
+
+Homepage: <https://huggingface.co/docs/inference-providers>
+
+[^hfip]: Checked on Apr 30, 2026
+
 ### [Google Cloud Vertex AI (free trial credits)](https://cloud.google.com/vertex-ai)
 
 Not a free-forever tier — but new GCP customers get **$300 in free credits valid for 90 days**, usable across Vertex AI for Gemini 3 Pro/Flash, Anthropic Claude on Vertex, and Vertex Partner models (DeepSeek, GLM, Qwen via MaaS).
@@ -274,13 +303,15 @@ Setup:
 - $300 expires after 90 days; account does not auto-convert to paid
 - Model access varies by region; Gemini 3 Pro/Flash available in most regions
 
+**Vertex AI Express Mode (no billing required):** New users can sign up for an Express-mode account with limited free quotas — no credit card needed for evaluation. See <https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/express-mode/overview>.
+
 Practical for short-term heavy evaluation; not a long-term free path.
 
 Source: <https://cloud.google.com/free>, <https://cloud.google.com/vertex-ai/generative-ai/pricing> [^vertex]
 
 Homepage: <https://console.cloud.google.com/vertex-ai>
 
-[^vertex]: Checked on Apr 28, 2026
+[^vertex]: Checked on Apr 30, 2026
 
 ### [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/)
 
@@ -305,7 +336,8 @@ Open-source agentic coding extension for VS Code, JetBrains, and CLI. Its built-
 Free access:
 - Free models (IDs ending in `:free`) cost nothing — usage is tracked but not billed, rate-limited to 200 requests/hour per IP
 - `kilo-auto/free` auto-routes among available free models (e.g. GLM 4.7, MiniMax M2.1)
-- Signup grants $5 in free credits (one-time) usable on paid models
+- **First top-up grants $20 in bonus credits** (expires after 60 days) usable on paid models
+- Kilo Pass first-time subscribers get a 50% welcome bonus in month 1
 - Bring-your-own-keys works for any provider — no Kilo subscription required
 
 Paid Kilo Pass tiers are available for higher throughput on premium models (Starter $19, Pro $49, Expert $199/month), but the free path covers most casual coding use.
@@ -314,26 +346,7 @@ Source: <https://kilo.ai/pricing>, <https://kilo.ai/docs/getting-started/using-k
 
 Homepage: <https://kilo.ai>
 
-[^kilo]: Checked on Apr 22, 2026
-
-### [Kiro (by AWS)](https://kiro.dev)
-
-AWS's AI coding IDE/agent — backed by Claude Sonnet/Haiku/Opus and other frontier models. Free tier requires only an AWS Builder ID, social login, or AWS IAM Identity Center sign-in.
-
-Free tier:
-- **50 credits/month** (perpetual)
-- **500 bonus credits** for new signups (usable within 30 days)
-- Default Auto agent picks among Sonnet 4.5 and other models; manual selection includes Sonnet 4 / 4.5, Haiku 4.5, Opus 4.5 / 4.6 / 4.7
-- Other models (GLM, MiniMax, Qwen, DeepSeek, Kimi) available regionally
-- Unused credits don't roll over; overage on paid tiers is $0.04/credit
-
-Paid tiers: Pro $20, Pro+ $40, Power $200 — with 1,000–10,000 credits/month.
-
-Source: <https://kiro.dev/pricing/> [^kiro]
-
-Homepage: <https://kiro.dev>
-
-[^kiro]: Checked on Apr 28, 2026
+[^kilo]: Checked on Apr 30, 2026
 
 ### [Pollinations AI](https://pollinations.ai)
 
@@ -350,3 +363,51 @@ Source: <https://github.com/pollinations/pollinations> [^pollinations]
 Homepage: <https://pollinations.ai>
 
 [^pollinations]: Checked on Apr 28, 2026
+
+### [Together AI](https://www.together.ai)
+
+Serverless inference for 200+ open-source models (Llama, Qwen, DeepSeek, Mixtral, etc.). OpenAI-compatible — drop-in via base URL change.
+
+Free access:
+- **$25 in free credits** at signup (one-time)
+- No permanent free tier — beyond credits, pay-per-use ($0.06/M tokens for small models)
+- Startup Accelerator program: $15K–$50K credits for eligible startups
+- OpenAI-compatible API: change base URL + model name, keep the SDK
+
+Source: <https://www.together.ai>, <https://www.together.ai/startup-accelerator> [^together]
+
+Homepage: <https://www.together.ai>
+
+[^together]: Checked on Apr 30, 2026
+
+### [DeepInfra](https://deepinfra.com)
+
+Pay-per-token inference for 100+ open-source models. OpenAI-compatible endpoint at `api.deepinfra.com/v1/openai`.
+
+Free access:
+- **Sign-up credits** (one-time, no permanent free tier)
+- Drop-in OpenAI SDK compatibility — swap base URL and API key
+- Pricing from $0.02/M tokens for small models, $0.06/M for mid-tier
+
+Best for low-cost production traffic, not free-forever.
+
+Source: <https://deepinfra.com/docs/deep_infra_api> [^deepinfra]
+
+Homepage: <https://deepinfra.com>
+
+[^deepinfra]: Checked on Apr 30, 2026
+
+### [Fireworks AI](https://fireworks.ai)
+
+Fast inference for 50+ open-source models, plus tooling (function calling, MCP support, response API). OpenAI-compatible.
+
+Free access:
+- **$1 in free starter credits** at signup (small but enough to evaluate)
+- OpenAI-compatible — initialize OpenAI client with Fireworks base URL + key
+- Pay-per-use beyond starter credit
+
+Source: <https://fireworks.ai/pricing>, <https://docs.fireworks.ai/tools-sdks/openai-compatibility> [^fireworks]
+
+Homepage: <https://fireworks.ai>
+
+[^fireworks]: Checked on Apr 30, 2026
