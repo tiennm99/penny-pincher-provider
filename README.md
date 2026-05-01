@@ -14,6 +14,8 @@ Friend's passes:
 
 - <https://claude.ai/referral/7RBJExZ7LA>
 
+> **Got a spare Claude Code guest pass?** You can help others try Claude Code for free by sharing your pass here — open a pull request adding your link under the *Friend's passes* section, or [open an issue](https://github.com/tiennm99/penny-pincher-provider/issues/new) and I'll add it for you. Passes are first-come, first-served, so the more we pool together, the better.
+
 If you know of other providers, feel free to create a pull request or [open an issue here](https://github.com/tiennm99/penny-pincher-provider/issues/new). I will review and add them when possible. Thank you!
 
 *If you find this helpful, you can support me by donating or registering with my referral links. Thank you!*
