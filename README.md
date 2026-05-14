@@ -41,6 +41,32 @@ Models: GLM-5.1, GLM-5-Turbo.
 
 *Checked Apr 30, 2026.*
 
+### [BigModel.cn — GLM Coding Plan](https://www.bigmodel.cn/glm-coding)
+
+The Chinese (mainland) counterpart of Z.ai's GLM Coding Plan — same underlying Zhipu AI models, but billed in CNY through bigmodel.cn. Suited for users who can pay via Alipay / WeChat Pay or already have a 智谱 AI account.
+
+Plans (monthly, after the 2026 price adjustment):
+- **Lite**: ¥49/month
+- **Pro**: ¥149/month
+- **Max**: ¥469/month
+
+All tiers support GLM-5.1, GLM-5-Turbo, GLM-4.7, and GLM-4.5-Air. Compatible with Claude Code, Cline, and 20+ coding tools via OpenAI-compatible API plus an Anthropic-compatible endpoint.
+
+Referral program (challenge-based, resets every 30 invitees):
+- Invited friend gets **5% off** their first GLM Coding Plan order.
+- Referrer gets **10% cashback** once 3 friends subscribe, plus an **additional 10%** of the total paid amount for every 30 invitees.
+- Rebate credit is usable for resource packs, API calls, and subscription renewals on the BigModel platform.
+
+Source: <https://www.bigmodel.cn/glm-coding>, <https://docs.bigmodel.cn/cn/coding-plan/overview> [^bigmodel]
+
+Homepage: <https://www.bigmodel.cn/glm-coding>
+
+My referral:
+
+>🚀 Join the GLM Coding Plan via my link — get 5% off your first order. Subscribe at https://www.bigmodel.cn/glm-coding?ic=VGRZKHKNKW (invitation code: `VGRZKHKNKW`).
+
+[^bigmodel]: Checked on May 14, 2026
+
 ### [MiniMax](https://platform.minimax.io)
 
 Token Plan — priced per **API call**, not token. $10–$150/month.
