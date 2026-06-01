@@ -32,6 +32,21 @@ Have a spare pass? Open a PR adding your link under *Friend's passes*, or open a
 Monthly subscriptions with request-based (not token-based) quotas, compatible with
 Claude Code, Cursor, Cline, and similar tools.
 
+### [opencode — Go](https://opencode.ai/go)
+
+Open-source `opencode` CLI subscription. $5 first month, **$10/month** thereafter.
+
+Models: GLM-5.1, Kimi K2.6, MiniMax M2.7, Qwen3.5/3.6 Plus, MiMo-V2. Per-5-hour limits vary (200–10,200 req).
+API key portable — works with Claude Code via LiteLLM proxy or `oc-go-cc`. Model format: `opencode-go/<model-id>`.
+
+My referral:
+
+> Invite friends to OpenCode Go. Earn $5 when a friend subscribes, and they'll get $5 too. Share your referral link; your friend joins and subscribes to Go; you both get a $5 usage credit to apply toward your Go usage limits.
+>
+> Referral link: <https://opencode.ai/go?ref=HE42WGS8BM>
+
+*Checked Apr 30, 2026.*
+
 ### [Z.ai](https://z.ai/subscribe)
 
 Plans from **$18/month** (Lite/Pro/Max). OpenAI-compatible + Anthropic-compatible endpoint.
@@ -104,21 +119,6 @@ ByteDance. Lite: **$5/month**, Pro: **$25/month**.
 
 Models: ByteDance-Seed-2.0, DeepSeek-V3.2, GLM-5.1, Kimi-K2.5.
 Tools: Claude Code, Cursor, Cline, Roo Code, OpenCode.
-
-*Checked Apr 30, 2026.*
-
-### [opencode — Go](https://opencode.ai/go)
-
-Open-source `opencode` CLI subscription. $5 first month, **$10/month** thereafter.
-
-Models: GLM-5.1, Kimi K2.6, MiniMax M2.7, Qwen3.5/3.6 Plus, MiMo-V2. Per-5-hour limits vary (200–10,200 req).
-API key portable — works with Claude Code via LiteLLM proxy or `oc-go-cc`. Model format: `opencode-go/<model-id>`.
-
-My referral:
-
-> Invite friends to OpenCode Go. Earn $5 when a friend subscribes, and they'll get $5 too. Share your referral link; your friend joins and subscribes to Go; you both get a $5 usage credit to apply toward your Go usage limits.
->
-> Referral link: <https://opencode.ai/go?ref=HE42WGS8BM>
 
 *Checked Apr 30, 2026.*
 
