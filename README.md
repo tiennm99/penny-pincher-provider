@@ -114,6 +114,12 @@ Open-source `opencode` CLI subscription. $5 first month, **$10/month** thereafte
 Models: GLM-5.1, Kimi K2.6, MiniMax M2.7, Qwen3.5/3.6 Plus, MiMo-V2. Per-5-hour limits vary (200–10,200 req).
 API key portable — works with Claude Code via LiteLLM proxy or `oc-go-cc`. Model format: `opencode-go/<model-id>`.
 
+My referral:
+
+> Invite friends to OpenCode Go. Earn $5 when a friend subscribes, and they'll get $5 too. Share your referral link; your friend joins and subscribes to Go; you both get a $5 usage credit to apply toward your Go usage limits.
+>
+> Referral link: <https://opencode.ai/go?ref=HE42WGS8BM>
+
 *Checked Apr 30, 2026.*
 
 ### [Synthetic](https://synthetic.new/)
