@@ -84,17 +84,17 @@ My referral:
 
 ### [MiniMax](https://platform.minimax.io)
 
-Token Plan — priced per **API call**, not token. $10–$150/month.
+Token Plan — priced per **API call**, not token. $20–$120/month.
 
-- Starter ($10): 1,500 M2.7 requests per 5-hour window
-- Plus ($20): 4,500 requests + speech/image/music generation
-- Max ($50): higher quotas across all models
+- Plus ($20): 4-5 agents, all models on the API platform
+- Max ($50): 6-7 agents, all models on the API platform
+- Ultra ($120): 6-7 agents, all models on the API platform
 
-Models: M2.7 (language), Speech 2.8, Image-01, Hailuo video, Music-2.5. Yearly plans ~17% off.
+Models: M3 (frontier multimodal coding, 1M context), M2.7 (language), M2.7-highspeed, speech-2.8-hd/turbo, Music-2.6, Hailuo 2.3 (video). Yearly plans ~17% off.
 
 > Referral (10% off) until **Jul 1, 2026** — **For Referred Users:** 10% off subscription + become a dev ambassador. **For Referrers:** 10% back in API voucher per paid referral, usable across all MiniMax models, plus priority access to events and model previews. [View details](https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link)
 
-*Checked Apr 30, 2026.*
+*Checked Jun 4, 2026.*
 
 ### [Kimi Code](https://www.kimi.com/code)
 
