@@ -131,6 +131,16 @@ OpenAI-compatible — works with Roo, Cline, Octofriend.
 
 *Checked Apr 22, 2026.*
 
+### [Xiaomi MiMo Open Platform](https://platform.xiaomimimo.com)
+
+I'm on Xiaomi MiMo Open Platform — running Xiaomi's flagship MiMo V2.5 and the rest of the lineup. Sign up with my code and you'll instantly get $2 in API credits.
+
+After signup, enter the code at the bottom-left of the console. Credits valid 40 days.
+
+> Referral: Code `T8ESAY` · <https://platform.xiaomimimo.com?ref=T8ESAY>
+
+*Checked Jun 4, 2026.*
+
 ---
 
 ## Free Providers
