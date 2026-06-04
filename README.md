@@ -56,6 +56,28 @@ Models: GLM-5.1, GLM-5-Turbo.
 
 *Checked Apr 30, 2026.*
 
+### [MiniMax](https://platform.minimax.io)
+
+Token Plan — priced per **API call**, not token. $20–$120/month.
+
+- Plus ($20): 4-5 agents, all models on the API platform
+- Max ($50): 6-7 agents, all models on the API platform
+- Ultra ($120): 6-7 agents, all models on the API platform
+
+Models: M3 (frontier multimodal coding, 1M context), M2.7 (language), M2.7-highspeed, speech-2.8-hd/turbo, Music-2.6, Hailuo 2.3 (video). Yearly plans ~17% off.
+
+> Referral (10% off) until **Jul 1, 2026** — **For Referred Users:** 10% off subscription + become a dev ambassador. **For Referrers:** 10% back in API voucher per paid referral, usable across all MiniMax models, plus priority access to events and model previews. [View details](https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link)
+
+*Checked Jun 4, 2026.*
+
+### [Kimi Code](https://www.kimi.com/code)
+
+Moonshot's coding perk bundled with Kimi membership. Models: Kimi K-series. Rolling 5-hour quota window.
+
+Tiers: Adagio (free), Andante, Presto. Pay-as-you-go also at `platform.moonshot.ai`.
+
+*Checked Apr 30, 2026.*
+
 ### [BigModel.cn — GLM Coding Plan](https://www.bigmodel.cn/glm-coding)
 
 The Chinese (mainland) counterpart of Z.ai's GLM Coding Plan — same underlying Zhipu AI models, but billed in CNY through bigmodel.cn. Suited for users who can pay via Alipay / WeChat Pay or already have a 智谱 AI account.
@@ -81,28 +103,6 @@ My referral:
 >🚀 Join the GLM Coding Plan via my link — get 5% off your first order. Subscribe at https://www.bigmodel.cn/glm-coding?ic=VGRZKHKNKW (invitation code: `VGRZKHKNKW`).
 
 [^bigmodel]: Checked on May 14, 2026
-
-### [MiniMax](https://platform.minimax.io)
-
-Token Plan — priced per **API call**, not token. $20–$120/month.
-
-- Plus ($20): 4-5 agents, all models on the API platform
-- Max ($50): 6-7 agents, all models on the API platform
-- Ultra ($120): 6-7 agents, all models on the API platform
-
-Models: M3 (frontier multimodal coding, 1M context), M2.7 (language), M2.7-highspeed, speech-2.8-hd/turbo, Music-2.6, Hailuo 2.3 (video). Yearly plans ~17% off.
-
-> Referral (10% off) until **Jul 1, 2026** — **For Referred Users:** 10% off subscription + become a dev ambassador. **For Referrers:** 10% back in API voucher per paid referral, usable across all MiniMax models, plus priority access to events and model previews. [View details](https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link)
-
-*Checked Jun 4, 2026.*
-
-### [Kimi Code](https://www.kimi.com/code)
-
-Moonshot's coding perk bundled with Kimi membership. Models: Kimi K-series. Rolling 5-hour quota window.
-
-Tiers: Adagio (free), Andante, Presto. Pay-as-you-go also at `platform.moonshot.ai`.
-
-*Checked Apr 30, 2026.*
 
 ### [Alibaba Cloud Model Studio — Coding Plan](https://www.alibabacloud.com/help/en/model-studio/coding-plan)
 
