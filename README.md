@@ -92,7 +92,7 @@ Token Plan — priced per **API call**, not token. $10–$150/month.
 
 Models: M2.7 (language), Speech 2.8, Image-01, Hailuo video, Music-2.5. Yearly plans ~17% off.
 
-> Referral (10% off): <https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link>
+> Referral (10% off) until **Jul 1, 2026** — **For Referred Users:** 10% off subscription + become a dev ambassador. **For Referrers:** 10% back in API voucher per paid referral, usable across all MiniMax models, plus priority access to events and model previews. [View details](https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link)
 
 *Checked Apr 30, 2026.*
 
