@@ -145,7 +145,20 @@ After signup, enter the code at the bottom-left of the console. Credits valid 40
 
 ## Free Providers
 
-Sorted by attractiveness — largest recurring free quota first.
+### [OpenCode Zen](https://opencode.ai/docs/zen)
+
+Hand-picked free models that change periodically. Optimized for coding agents.
+
+| Model | Status |
+|---|---|
+| `Big Pickle` | Free |
+| `DeepSeek V4 Flash Free` | Free |
+| `MiMo-V2.5 Free` | Free |
+| `Nemotron 3 Ultra Free` | Free |
+
+OpenAI/Anthropic compatible endpoints at `https://opencode.ai/zen/v1/`.
+
+*Checked Jun 5, 2026.*
 
 ### [LongCat AI](https://longcat.chat/platform)
 
