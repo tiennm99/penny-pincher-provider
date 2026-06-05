@@ -272,18 +272,6 @@ Covers OpenAI, Anthropic, Llama, Mistral, DeepSeek, Grok, Phi. Rate limits vary 
 
 *Checked Jun 5, 2026.*
 
-### [Together AI](https://www.together.ai)
-
-No free signup credits as of 2026 — $5 minimum prepay to start. 200+ models. OpenAI-compatible — swap base URL.
-
-*Checked Jun 5, 2026.*
-
-### [DeepInfra](https://deepinfra.com)
-
-Sign-up credits (one-time). 100+ models from $0.02/M. OpenAI-compatible.
-
-*Checked Jun 5, 2026.*
-
 ### [xAI Grok API](https://x.ai/api)
 
 $25 signup credits + $150/month via Data Sharing Program (eligible countries).
