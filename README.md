@@ -80,6 +80,14 @@ Pro plan: **$50/month** — 6,000 req/5-hour, 45,000 req/week, 90,000 req/month.
 Models: qwen3.5-plus, kimi-k2.5, glm-5, MiniMax-M2.5.
 Tools: Claude Code, Cursor, Cline, Codex, and more. Lite plan no longer accepting new subscribers.
 
+**Token Plan (Team Edition)** — Credit-based, per-seat subscription (Singapore region only):
+- Standard: **$30/seat/month** — 25,000 Credits/seat
+- Advanced: **$100/seat/month** — 100,000 Credits/seat
+- Premium: **$200/seat/month** — 250,000 Credits/seat
+- Shared quota pack: **$700** — 625,000 Credits (1-month validity; unused Credits expire)
+
+Token Plan models: qwen3.6-plus, glm-5, MiniMax-M2.5, deepseek-v3.2 (text); qwen-image-2.0/2.0-pro, wan2.7-image/image-pro (image).
+
 > Referral: Up to **$1,700** in free trial credits via <https://www.alibabacloud.com/campaign/benefits?referral_code=A92LU5> (code: `A92LU5`).
 
 *Checked Jun 5, 2026.*
