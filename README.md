@@ -172,8 +172,23 @@ After signup, enter the code at the bottom-left of the console. Credits valid 40
 > Referral: Code `T8ESAY` · <https://platform.xiaomimimo.com?ref=T8ESAY>
 
 *Checked Jun 5, 2026.*
-
 ---
+
+## Pay-As-You-Go API Providers
+
+Token-based billing (no subscription required). Compatible with Claude Code, Cursor, Cline, and similar tools.
+
+### [CoderPlan](https://coderplan.ai)
+
+Unified LLM API gateway with OpenAI-compatible access to Claude (Opus/Sonnet/Haiku), GPT (5.5/5.4/4.1), Gemini (3.1 Pro), DeepSeek (V4/R1), and 20+ models.
+
+- **Pricing**: ~0.7x official provider rates, pay-per-use. ¥10 CNY (~$1.4) minimum top-up.
+- **Payment**: Alipay / WeChat Pay.
+- **Nodes**: Hong Kong / Singapore for low latency.
+- **Compatible with**: Claude Code, Codex CLI, Cursor, Cline, Gemini CLI.
+- OpenAI-compatible endpoint — set `base_url` and go.
+
+*Checked Jun 6, 2026.*
 
 ## Free Providers
 
