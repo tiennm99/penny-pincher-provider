@@ -45,7 +45,7 @@ Claude Code, Cursor, Cline, and similar tools.
 ### [Z.ai](https://z.ai/subscribe)
 
 Plans from **$18/month** (Lite/Pro/Max). OpenAI-compatible + Anthropic-compatible endpoint.
-Models: GLM-5.1, GLM-5-Turbo.
+Models: GLM-5.1, GLM-5-Turbo, GLM-4.7, GLM-4.5-Air.
 
 > Referral: <https://z.ai/subscribe?ic=PLKIAYEIPW>
 
@@ -77,7 +77,7 @@ Tiers: Adagio (free), Andante, Presto. Pay-as-you-go also at `platform.moonshot.
 
 Pro plan: **$50/month** — 6,000 req/5-hour, 45,000 req/week, 90,000 req/month.
 
-Models: qwen3.5-plus, qwen3-max, qwen3-coder, kimi-k2.5, glm-5, MiniMax-M2.5.
+Models: qwen3.5-plus, kimi-k2.5, glm-5, MiniMax-M2.5.
 Tools: Claude Code, Cursor, Cline, Codex, and more. Lite plan no longer accepting new subscribers.
 
 > Referral: Up to **$1,700** in free trial credits via <https://www.alibabacloud.com/campaign/benefits?referral_code=A92LU5> (code: `A92LU5`).
@@ -88,7 +88,7 @@ Tools: Claude Code, Cursor, Cline, Codex, and more. Lite plan no longer acceptin
 
 Open-source `opencode` CLI subscription. $5 first month, **$10/month** thereafter.
 
-Models: GLM-5.1, Kimi K2.6, MiniMax M2.7, Qwen3.5/3.6 Plus, MiMo-V2. Per-5-hour limits vary (200–10,200 req).
+Models: GLM-5/5.1, Kimi K2.5/K2.6, MiniMax M2.7/M3, Qwen3.5/3.6/3.7 Plus, MiMo-V2.5(-Pro), DeepSeek V4 Flash/Pro. Per-5-hour limits vary (200–10,200 req).
 API key portable — works with Claude Code via LiteLLM proxy or `oc-go-cc`. Model format: `opencode-go/<model-id>`.
 
 My referral:
@@ -103,7 +103,7 @@ My referral:
 
 Privacy-first inference (no training on prompts/responses). **$30/month** subscription or pay-as-you-go.
 
-Models: Kimi K2.5, MiniMax M2.5, GLM 5.1, GLM 4.7 Flash, vLLM-compatible open-source models.
+Models: Kimi K2.6, MiniMax M2.5, GLM 5.1, GLM 4.7 Flash, vLLM-compatible open-source models.
 OpenAI-compatible — works with Roo, Cline, Octofriend.
 
 > Referral: **$10.00** in subscription credit via <https://synthetic.new/?referral=CNBFyw28zF0dZoj>
@@ -138,7 +138,7 @@ My referral:
 
 ### [BytePlus ModelArk — Coding Plan](https://www.byteplus.com/en/activity/codingplan)
 
-ByteDance. Lite: **$5/month**, Pro: **$25/month**.
+ByteDance. Lite: **$15/month**, Pro: **$35/month** (intro promo $5/$25 ended early 2026).
 
 Models: ByteDance-Seed-2.0, DeepSeek-V3.2, GLM-5.1, Kimi-K2.5.
 Tools: Claude Code, Cursor, Cline, Roo Code, OpenCode.
@@ -152,6 +152,8 @@ Tools: Claude Code, Cursor, Cline, Roo Code, OpenCode.
 I'm on Xiaomi MiMo Open Platform — running Xiaomi's flagship MiMo V2.5 and the rest of the lineup. Sign up with my code and you'll instantly get $2 in API credits.
 
 After signup, enter the code at the bottom-left of the console. Credits valid 40 days.
+
+**Token Plan** (monthly, launched May 2026): Lite ¥39 (60M credits), Standard ¥99 (200M), Pro ¥329 (700M), Max ¥659 (1,600M). Models: MiMo-V2.5, MiMo-V2.5-Pro (2× credit cost). Annual plans discounted.
 
 > Referral: Code `T8ESAY` · <https://platform.xiaomimimo.com?ref=T8ESAY>
 
@@ -169,7 +171,7 @@ Free models (`:free` suffix): 20 RPM, 50 req/day (free accounts); 1,000 req/day 
 
 ### [NVIDIA NIM](https://build.nvidia.com)
 
-Free for NVIDIA Developer Program members, no credit card. ~40 RPM, ~1,000 req/month.
+Free for NVIDIA Developer Program members, no credit card. ~40 RPM. 1,000 inference credits at signup (consumption-based, not a fixed monthly request cap).
 
 Models: Kimi K2.5, GPT-OSS, DeepSeek-V3.2, Llama 3.x, Mistral, Phi, Nemotron. OpenAI-compatible.
 
@@ -194,12 +196,17 @@ OpenAI/Anthropic compatible endpoints at `https://opencode.ai/zen/v1/`.
 
 Google's developer platform for Gemini models. Generous free tier with pay-as-you-go available.
 
-| Plan | Rate Limits |
-|---|---|
-| **Free** | 15 RPM, 1M TPM, 1,500 RPD |
-| **Paid** | Higher limits, usage-based billing |
+Free-tier limits vary by model (check the AI Studio dashboard for your project):
 
-Models: Gemini 2.0 Flash, Gemini 1.5 Pro/Flash. OpenAI-compatible endpoint available.
+| Model (Free) | RPM | RPD |
+|---|---|---|
+| Gemini 2.5 Pro | 5 | 100 |
+| Gemini 2.5 Flash | 10 | 250 |
+| Gemini 2.5 Flash-Lite | 15 | 1,000 |
+
+Paid tier: higher limits, usage-based billing.
+
+Models: Gemini 2.5 Pro/Flash/Flash-Lite. OpenAI-compatible endpoint available.
 
 **Warning:** In the Free tier, Google may use your prompts and responses to improve their products. Use the Paid tier or Vertex AI for privacy.
 
@@ -253,7 +260,7 @@ Covers OpenAI, Anthropic, Llama, Mistral, DeepSeek, Grok, Phi. Rate limits vary 
 
 ### [Together AI](https://www.together.ai)
 
-$25 signup credits (one-time). 200+ models. OpenAI-compatible — swap base URL.
+No free signup credits as of 2026 — $5 minimum prepay to start. 200+ models. OpenAI-compatible — swap base URL.
 
 *Checked Jun 5, 2026.*
 
@@ -309,13 +316,13 @@ Wafer-scale chip inference. Free tier, no credit card.
 | `qwen-3-235b-a22b-instruct-2507` | 30 | — |
 | `zai-glm-4.7` | 10 | — |
 
-1M tokens/day shared cap.
+1M tokens/day shared cap. 8K context limit on free tier.
 
 *Checked Jun 5, 2026.*
 
 ### [BigModel.cn](https://www.bigmodel.cn/)
 
-Zhipu AI (智谱 AI). 20M free tokens for new users to explore the API, playground, and AGI apps.
+Zhipu AI (智谱 AI). 25M free tokens for new users to explore the API, playground, and AGI apps. GLM-4.7-Flash and GLM-4.5-Flash are permanently free.
 
 > Referral: <https://www.bigmodel.cn/invite?icode=rIX6uZrLYfy8fQ6Urca4xf2gad6AKpjZefIo3dVEyA%3D>
 
@@ -327,42 +334,11 @@ $1 starter credits. 50+ models. Function calling, MCP support. OpenAI-compatible
 
 *Checked Jun 5, 2026.*
 
-### [Modal Labs](https://modal.com) — Self-Host
-
-$30/month recurring free credits (Starter plan). Deploy any open-source LLM via vLLM
-as your own OpenAI-compatible endpoint. 3 seats, 100 containers, 10 concurrent GPUs.
-
-*Checked Jun 5, 2026.*
-
-### [LongCat AI](https://longcat.chat/platform)
-
-Meituan. Public beta, no paid tier yet. Resets daily 00:00 Beijing Time.
-
-| Model | Free quota |
-|---|---|
-| `LongCat-Flash-Lite` | **50M tokens/day** |
-| `LongCat-Flash-Chat` | 500K tokens/day |
-| `LongCat-Flash-Thinking` | 500K tokens/day |
-| `LongCat-Flash-Omni-2603` (multimodal) | 500K tokens/day |
-| `LongCat-2.0-Preview` | 10M tokens/2h (invite-only) |
-
-OpenAI + Anthropic compatible endpoints. 256K context on most models.
-
-*Checked Jun 5, 2026.*
-
 ### [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/)
 
 EU/GDPR, Paris. 1M free tokens for new customers (no time limit advertised).
 
 Models: Qwen3 (235B/397B/coder), Llama 3.3 70B, Mistral Small 3.2, DeepSeek R1 distill, Pixtral.
-
-*Checked Jun 5, 2026.*
-
-### [Pollinations AI](https://pollinations.ai)
-
-Open-source, Berlin. Text, image, audio, video. Free publishable key (1 pollen/IP/hour).
-
-Models: DeepSeek V4, Flux, GPT Image, Seedream, Whisper, ElevenLabs voices. OpenAI-compatible.
 
 *Checked Jun 5, 2026.*
 
