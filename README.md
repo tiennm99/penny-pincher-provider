@@ -175,6 +175,22 @@ After signup, enter the code at the bottom-left of the console. Credits valid 40
 
 ---
 
+## Affordable API Gateways
+
+OpenAI-compatible gateways for coding agents and API clients where a base URL and API key are enough to switch providers.
+
+### [Prism API](https://go165.github.io/prism-api-promo/)
+
+Independent OpenAI-compatible gateway for overseas developers. Works with OpenAI-compatible SDKs and coding tools that allow a custom base URL.
+
+Models: GPT-5.5, GPT-5.4, Claude Sonnet 4, Gemini 2.5 Pro, and other GPT/Claude/Gemini/Antigravity families.
+
+Pricing note: recent `gpt-5.5` usage math works out to about **$0.88 per 1M output tokens** after the current 5x recharge multiplier. Recharge/voucher options are crypto-friendly; the service is not an official OpenAI endpoint and is not for Mainland China users.
+
+*Checked Jun 24, 2026.*
+
+---
+
 ## Free Providers
 
 ### [OpenRouter](https://openrouter.ai)
