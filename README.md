@@ -124,6 +124,19 @@ OpenAI-compatible — works with Roo, Cline, Octofriend.
 
 *Checked Jun 5, 2026.*
 
+### [AI Router](https://ai-router.dev)
+
+OpenAI-compatible ChatGPT API relay for developers. Lower-commitment than a large upfront top-up:
+
+- `20U` total for new users
+- `5U` available on signup
+- `15U` unlocked after top-up
+- Daily / weekly plans plus balance top-ups
+
+Works with Cursor, Continue, Cline, Open WebUI, LiteLLM, and other OpenAI-compatible clients. User API keys expose usage and token/cost visibility.
+
+*Checked Jul 10, 2026.*
+
 ### [BigModel.cn — GLM Coding Plan](https://www.bigmodel.cn/glm-coding)
 
 The Chinese (mainland) counterpart of Z.ai's GLM Coding Plan — same underlying Zhipu AI models, but billed in CNY through bigmodel.cn. Suited for users who can pay via Alipay / WeChat Pay or already have a 智谱 AI account.
