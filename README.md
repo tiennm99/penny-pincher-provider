@@ -71,6 +71,10 @@ Moonshot's coding perk bundled with Kimi membership. Models: Kimi K-series. Roll
 
 Tiers: Adagio (free), Andante, Presto. Pay-as-you-go also at `platform.moonshot.ai`.
 
+> Referral (code: `C8CJ6F`) — sign up or subscribe via my link and we each get a guaranteed benefit, up to **1-Year Membership Credits**:
+> - Sign up: <https://kimi-bot.com/activities/viral-referral/share?scenario=invite&from=share_poster&invitation_code=C8CJ6F>
+> - Subscribe: <https://kimi-bot.com/activities/viral-referral/share?scenario=subscribe&from=share_poster&invitation_code=C8CJ6F>
+
 *Checked Jun 5, 2026.*
 
 ### Alibaba Cloud Model Studio
