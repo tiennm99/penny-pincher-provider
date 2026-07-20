@@ -19,11 +19,7 @@ info but can be cancelled before the trial ends.
 
 - ~~<https://claude.ai/referral/ZkoAngod1A>~~ — out of stock as of 2026-04-30
 
-**Friend's passes:**
-
-- ~~<https://claude.ai/referral/7RBJExZ7LA>~~ — out of stock as of 2026-05-31
-
-Have a spare pass? Open a PR adding your link under *Friend's passes*, or open an issue.
+Have a spare pass? Open a PR adding your link, or open an issue.
 
 ## Claude AI Ecosystem
 
