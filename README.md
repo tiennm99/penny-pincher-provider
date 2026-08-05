@@ -177,6 +177,34 @@ After signup, enter the code at the bottom-left of the console. Credits valid 40
 
 ## Free Providers
 
+### [TokenRouter](https://www.tokenrouter.com/)
+
+Unified AI gateway with OpenAI-compatible access to 300+ models.
+
+- **Kimi K3 Free Version:** Use `moonshotai/kimi-k3-free` at $0 until **Aug 12, 2026**, running on TokenRouter's own B300 deployment.
+- **API:** Use the OpenAI Chat Completions endpoint at `https://api.tokenrouter.com/v1` with a TokenRouter API key.
+- **Limit:** Free compute capacity is limited, so stability and concurrency are not guaranteed.
+
+Source: [TokenRouter models](https://www.tokenrouter.com/models) [^tokenrouter]
+
+[^tokenrouter]: Check at Aug 5 2026
+
+### [OrcaRouter](https://www.orcarouter.ai/)
+
+OpenAI-compatible gateway with access to 200+ models, automatic routing, and failover.
+
+> Referral: <https://www.orcarouter.ai/ref/ref_3976ba42abf37dc55c1d> (code: `ref_3976ba42abf37dc55c1d`).
+
+- **Kimi K3:** Get $5 in credit as a new user before **Aug 6, 2026**; a payment card is required.
+- **Tencent HY3:** Get $5 in credit before **Aug 21, 2026**.
+- **Claude Opus 5:** Get a 60% deposit match, up to $500, when you join before **Aug 24, 2026**.
+- **Free DeepSeek models:** Get 100 initial V4 Flash calls and 30 initial V4 Pro calls with no published deadline.
+- **Grok 4.5:** The offer is sold out, but its waitlist is still open.
+
+Offers can change quickly; check the [live offers page](https://www.orcarouter.ai/offers) before claiming. [^orcarouter]
+
+[^orcarouter]: Check at Aug 5 2026
+
 ### [OpenRouter](https://openrouter.ai)
 
 Free models (`:free` suffix): 20 RPM, 50 req/day (free accounts); 1,000 req/day after $10 top-up.
