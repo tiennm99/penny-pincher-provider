@@ -1,15 +1,16 @@
 # Deployment
 
 The site is a Jekyll build of `README.md` (via `index.md`), published to two hosts
-from the same source. Both deploy from GitHub Actions on every push to `main`.
+from the same source. Each host builds it independently on every push to `main`.
 
-| Target | URL | Workflow |
+| Target | URL | Deployed by |
 | --- | --- | --- |
 | GitHub Pages | <https://tiennm99.github.io/penny-pincher-provider> | `.github/workflows/github-pages.yml` |
-| Cloudflare Pages | <https://penny-pincher-provider.pages.dev> | `.github/workflows/cloudflare-pages.yml` |
+| Cloudflare Pages | <https://penny-pincher-provider.pages.dev> | Cloudflare's Git integration |
 
-Both workflows build with this repo's `Gemfile` (Jekyll 4.4.1 on Ruby 3.4), so the
-two sites cannot drift apart on toolchain.
+Both build with this repo's `Gemfile`, so both run Jekyll 4.4.1 regardless of the
+host's own defaults. Only the Ruby patch differs (Actions tracks 3.4.x, Cloudflare's
+image is 3.4.4), which does not affect output.
 
 ## Config layering
 
@@ -39,25 +40,29 @@ rewrites `baseurl` with its own guess, which would fight the explicit value in
 
 ## Cloudflare Pages setup
 
-The project must be **Direct Upload**, not Git-connected. A Git-connected project
-would build on every push as well, deploying twice and racing the workflow.
+The Pages project is connected to this repository through Cloudflare's Git
+integration, so Cloudflare builds and deploys on its own. There is deliberately no
+Actions workflow for Cloudflare — that would deploy a second time on every push and
+race the Git integration.
 
-1. Create the project once, either in the dashboard (**Workers & Pages → Create →
-   Pages → Upload assets**, named `penny-pincher-provider`) or locally:
+Dashboard settings, under the project's **Settings → Build**:
 
-   ```sh
-   npx wrangler pages project create penny-pincher-provider --production-branch main
-   ```
+| Setting | Value |
+| --- | --- |
+| Build command | `bundle exec jekyll build --config _config.yml,_config.cloudflare.yml` |
+| Build system version | **v3** — v2 ships Ruby 3.2.2, which is end-of-life. |
 
-2. Add two repository secrets under **Settings → Secrets and variables → Actions**:
+The build command must carry the `--config` flag. Cloudflare's Jekyll preset runs a
+plain `jekyll build`, which uses `_config.yml` alone and bakes in the GitHub Pages
+`baseurl` — every asset URL on pages.dev would then 404 and the page would render
+unstyled.
 
-   | Secret | Where to get it |
-   | --- | --- |
-   | `CLOUDFLARE_API_TOKEN` | My Profile → API Tokens → Create Token, with the **Cloudflare Pages: Edit** permission. |
-   | `CLOUDFLARE_ACCOUNT_ID` | Workers & Pages overview sidebar, or `npx wrangler whoami`. |
+The build output directory needs no dashboard entry: `pages_build_output_dir` in
+`wrangler.jsonc` supplies it, and the wrangler file takes precedence for
+Git-integrated builds.
 
-`wrangler.jsonc` supplies the project name and `pages_build_output_dir`, so the
-workflow's `pages deploy` command needs no arguments.
+No API token or account ID is needed anywhere — Cloudflare pulls the repository
+itself.
 
 ## Building locally
 
@@ -71,9 +76,16 @@ JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 Gems install into the gitignored `.bundle/` inside the repo rather than the shared
-rbenv gem home, keeping the project self-contained. To deploy to Cloudflare by hand,
-build with the Cloudflare config and run `npx wrangler pages deploy` after
-`npx wrangler login`.
+rbenv gem home, keeping the project self-contained.
+
+To preview what Cloudflare will publish, add the config flag:
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.cloudflare.yml
+```
+
+Deploying by hand is not possible: `wrangler pages deploy` performs a direct upload,
+which a Git-connected project rejects. Push to `main` instead.
 
 ## Notes
 
