@@ -2,3 +2,25 @@ title: Penny-Pincher Provider
 description: A curated list of affordable (or almost free) LLM providers
 theme: minima
 show_downloads: false
+
+# GitHub Pages target. It only ever reads this file, so its values live here and
+# Cloudflare overrides them via _config.cloudflare.yml.
+url: https://tiennm99.github.io
+baseurl: /penny-pincher-provider
+
+# README.md is the site content, pulled into index.md via include_relative.
+# Excluding it stops the raw markdown shipping as a duplicate page.
+exclude:
+  - CLAUDE.md
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - wrangler.jsonc
+  - _config.cloudflare.yml
+  - .claude/
+  - docs/
+  - plans/
+
+sass:
+  sourcemap: never

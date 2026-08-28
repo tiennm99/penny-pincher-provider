@@ -1,2 +1,13 @@
 session-state
 settings.local.json
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Project-local gems (bundler path config + installed gems)
+.bundle/
+
+# Wrangler local state
+.wrangler/

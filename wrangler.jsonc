@@ -1,0 +1,9 @@
+{
+  // Cloudflare Pages project. The site is fully static — no Pages Functions —
+  // so this file only declares where Jekyll writes its output.
+  "name": "penny-pincher-provider",
+  "compatibility_date": "2026-08-28",
+
+  // Produced by `bundle exec jekyll build`; see docs/cloudflare-deployment.md
+  "pages_build_output_dir": "./_site"
+}

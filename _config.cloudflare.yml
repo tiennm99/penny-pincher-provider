@@ -1,0 +1,6 @@
+# Cloudflare Pages overrides, layered on top of _config.yml:
+#   bundle exec jekyll build --config _config.yml,_config.cloudflare.yml
+#
+# The site sits at the domain root here, unlike the GitHub Pages subpath.
+url: https://penny-pincher-provider.pages.dev
+baseurl: ""
