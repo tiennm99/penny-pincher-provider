@@ -23,13 +23,18 @@ Have a spare pass? Open a PR adding your link, or open an issue.
 
 ## Claude AI Ecosystem
 
-### [ClaudeKit](https://claudekit.cc/)
+### [AgentKit](https://agentkit.best/)
 
-ClaudeKit provides tools and resources to work with Claude AI more effectively — including prompt templates, workflows, and extensions.
+AgentKit (formerly **ClaudeKit**, `claudekit.cc`) sells production-ready kits of skills, slash
+commands, subagents, and workflows for coding agents — Claude Code, Codex, GitHub Copilot, and
+others. **Engineer** ($99) covers frontend, backend, database, DevOps, code review, and debugging;
+**Marketing** ($99) adds MCP integrations and subagents for lead research, SEO, and outreach;
+the bundle is **$149** (108+ skills, 95+ commands, 45 subagents). A macOS/Windows desktop app for
+the `ak` CLI is on a waitlist.
 
-> Referral: **20% off** your first purchase via <https://claudekit.cc/?ref=BWA910UK> (code: `BWA910UK`).
+> Referral: **20% off** your first purchase via <https://agentkit.best/?ref=BWA910UK> (code: `BWA910UK`).
 
-*Checked Jun 5, 2026.*
+*Checked Aug 28, 2026.*
 
 ---
 
