@@ -178,6 +178,20 @@ After signup, enter the code at the bottom-left of the console. Credits valid 40
 
 *Checked Jun 5, 2026.*
 
+### [GitHub Copilot Pro](https://github.com/features/copilot/plans)
+
+Cheapest mainstream coding seat. **$10/month** ($100/year) — unmetered code completions and
+chat on the base model, plus **1,500 premium requests/month** for frontier models
+(Claude, GPT, Gemini). Copilot Pro+ is $39/month with 6,000 premium requests.
+
+Free tier: 2,000 completions + 50 premium requests/month, no card.
+Free for verified students, teachers, and maintainers of popular open-source repos.
+
+Tools: VS Code, JetBrains, Neovim, Xcode, Visual Studio, `gh copilot` CLI, and the Copilot
+coding agent on github.com.
+
+*Checked Sep 11, 2026.*
+
 ---
 
 ## Free Providers
@@ -376,6 +390,78 @@ EU/GDPR, Paris. 1M free tokens for new customers (no time limit advertised).
 Models: Qwen3 (235B/397B/coder), Llama 3.3 70B, Mistral Small 3.2, DeepSeek R1 distill, Pixtral.
 
 *Checked Jun 5, 2026.*
+
+### [SambaNova Cloud](https://cloud.sambanova.ai)
+
+RDU (dataflow chip) inference. Developer tier, no credit card.
+
+Free: **$5** in credits (expire after 30 days), 20 RPM, 200K tokens/day per model.
+
+Models: DeepSeek, Llama 3.x/4, Qwen3, Whisper. OpenAI-compatible.
+
+Source: <https://sambanova.ai/blog/sambanova-cloud-developer-tier-is-live>
+
+*Checked Sep 11, 2026.*
+
+### [Cohere](https://dashboard.cohere.com/api-keys)
+
+Trial API key, no credit card. **1,000 calls/month**, 20 RPM.
+
+Models: Command A+, Command R, Command R7B, Aya (11+ models), plus rerank and embeddings.
+
+**Warning:** trial keys are **non-commercial use only** — production needs a production key (paid).
+
+*Checked Sep 11, 2026.*
+
+### [Vercel AI Gateway](https://vercel.com/docs/ai-gateway)
+
+Single OpenAI-compatible endpoint routing to many providers, with failover and BYOK.
+
+Free: **$5/month** in renewing credits (does not roll over). Free tier covers a subset of models and applies lower per-model rate limits than paid.
+
+Source: <https://vercel.com/docs/ai-gateway/pricing>
+
+*Checked Sep 11, 2026.*
+
+### [Requesty](https://www.requesty.ai/)
+
+LLM gateway with routing, caching, and spend controls. Works with Claude Code, Cline, Cursor, Roo.
+
+Free: **200 req/day** on the free-model catalogue. No credit card, no trial clock — same platform as pay-as-you-go, just restricted to free models until you upgrade.
+
+Source: <https://www.requesty.ai/free-models>, <https://www.requesty.ai/pricing>
+
+*Checked Sep 11, 2026.*
+
+### [SiliconFlow](https://cloud.siliconflow.cn/)
+
+Chinese multi-model inference platform, 200+ LLM/image/audio/video models.
+
+Free: a set of smaller open-source models is **permanently $0**; new international accounts get ~**$1** starter credit. 1,000 RPM / 50,000 TPM on the free models. Identity verification required.
+
+Models (free): Qwen3-8B (128K ctx) and similar small open models. OpenAI-compatible.
+
+*Checked Sep 11, 2026.*
+
+### [ModelScope](https://modelscope.cn/)
+
+Alibaba's model community (魔搭). API-Inference free for registered users.
+
+Free: **2,000 req/day** total, **≤500 req/day per model**. Requires an Alibaba account with real-name verification (mainland China ID).
+
+Models: Qwen, DeepSeek, GLM and 50+ other open models.
+
+*Checked Sep 11, 2026.*
+
+### [Ollama Cloud](https://ollama.com/cloud)
+
+Hosted counterpart to the local `ollama` CLI — same commands and API, models run on Ollama's GPUs.
+
+Free tier with per-session and weekly caps (exact numbers unpublished). No credit card.
+
+Models: DeepSeek, Kimi, MiniMax, GPT-OSS, Qwen and 16 model families. OpenAI-compatible.
+
+*Checked Sep 11, 2026.*
 
 ---
 
