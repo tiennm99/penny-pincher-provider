@@ -463,6 +463,173 @@ Models: DeepSeek, Kimi, MiniMax, GPT-OSS, Qwen and 16 model families. OpenAI-com
 
 *Checked Sep 11, 2026.*
 
+### [LongCat (Meituan)](https://longcat.chat/platform/docs/zh/)
+
+Meituan's open platform for **LongCat-2.0** (1.6T-param MoE agentic model, **1M context**, 128K max output).
+Both **OpenAI** (`https://api.longcat.chat/openai`) and **Anthropic** (`https://api.longcat.chat/anthropic`)
+formats — works with Claude Code directly.
+
+Free: signup grants a daily quota plus a one-time resource pack (exact figures only shown in the console;
+third-party reports ~500K tokens/day, raisable on request). Cache hits don't consume quota. Returns 429
+with exponential-backoff guidance when rate-limited.
+
+Source: <https://longcat.chat/platform/docs/zh/>, <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [SenseNova Token Plan](https://www.sensenova.cn/token-plan)
+
+SenseTime (商汤). Public beta — **Free tier ¥0/month**, phone-number signup, no card, no ID verification.
+OpenAI-compatible at `https://token.sensenova.cn/v1` plus an Anthropic-compatible endpoint.
+
+Limits: **60,000 credits / rolling 5 h** and **600,000 credits / rolling week**, separately for the general
+pool and the Flash-Lite pool. Up to 20 API keys.
+
+Models at 0 credits: SenseNova 6.8 Flash-Lite, SenseNova U1 Fast, DeepSeek V4 Flash / V4 Pro, GLM-5.2, Kimi K3.
+
+**Warning:** SenseTime says paid Lite/Pro tiers are "coming soon" with no end date for the free beta —
+don't build production on it.
+
+Source: <https://platform.sensenova.cn>, <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [AMD Token Factory (Radeon Cloud)](https://developer.amd.com.cn/radeon/tokenfactory)
+
+AMD's official inference platform on Radeon GPUs. **~$10-equivalent free quota per day**, resets daily
+(does not roll over). OpenAI-compatible at `https://developer.amd.com.cn/radeon/api/v1`.
+
+Free models: DeepSeek V4 Flash 0731, MiniCPM5-1B; GLM-5.3-Flash and Qwen3.8-Flash-Next as limited-time free.
+High time-to-first-token (~20 s) reported.
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [Volcengine Ark (ByteDance)](https://console.volcengine.com/ark)
+
+ByteDance's model platform (火山引擎方舟). Permanent free tier: **2M tokens/day**, resets at midnight
+(GMT+8). OpenAI-compatible at `https://ark.cn-beijing.volces.com/api/v3`.
+
+Free models: Doubao-Lite, DeepSeek R2 / V3 (within the daily quota). Doubao-Pro and higher tiers are paid.
+Requires a phone number with real-name verification (mainland China).
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [Baidu Qianfan](https://cloud.baidu.com/product/wenxinworkshop)
+
+Baidu's model platform (千帆). **ERNIE-Speed-128K and ERNIE-Lite are permanently free**, rate-limited.
+OpenAI-compatible at `https://qianfan.baidubce.com/v2`. Real-name verification required.
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [iFlytek Spark](https://xinghuo.xfyun.cn/sparkapi)
+
+讯飞星火. **Spark Lite is permanently free with unlimited tokens**, capped at **2 QPS**.
+OpenAI-compatible at `https://spark-api-open.xf-yun.com/v1` (APIKey/APISecret auth). Individual real-name
+verification required.
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [AIHubMix](https://aihubmix.com/models/free)
+
+Gateway with **56 free models**, no credit card. Speaks Chat Completions, Messages, and Responses at
+`https://aihubmix.com/v1`.
+
+Free: 10 trial calls at signup (never expire). A **one-time $1 top-up** permanently unlocks
+**100 req/day + 1M tokens/day** on the free catalogue (shared pool, resets daily).
+
+Free models include glm-4.7-flash, hy3, minimax-m3, k2.6-code-preview, gpt-oss-20b, nemotron-3-ultra/super,
+gemma-4-31b, mimo-v2.5(-pro), coding-glm-5.3, gpt-5.5, gemini-3.8-flash.
+
+Source: <https://aihubmix.com/models/free>, <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/)
+
+EU-hosted (France). **Anonymous free tier — no API key, no signup**: 2 RPM per IP per model.
+OpenAI SDK-compatible at `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1`.
+
+Models (20+): Qwen3.5-397B-A17B, gpt-oss-120b/20b, Llama 3.3 70B, Qwen3.6-27B, Qwen3-Coder-30B,
+Qwen2.5-VL-72B, Mistral Small 3.2, Mistral Nemo.
+
+Source: <https://github.com/mnfst/awesome-free-llm-apis>
+
+*Checked Sep 21, 2026.*
+
+### [LLM7.io](https://token.llm7.io)
+
+UK gateway. Anonymous access needs no key (10 RPM, 60 req/hour); a free token from `token.llm7.io` raises
+the limits. OpenAI-compatible at `https://api.llm7.io/v1`.
+
+Models: gpt-oss-20b, minimax-m2.7 (180K ctx), Mistral Nemo.
+
+Source: <https://github.com/mnfst/awesome-free-llm-apis>
+
+*Checked Sep 21, 2026.*
+
+### [Token Harbor](https://tokenharbor.ai/pricing)
+
+Small gateway. **Free tier $0/month** with a rolling 4-week quota (amount unpublished, unused quota carries
+over). Agent Pass **$1.99/month** ($0.99 first month) tops up the same pool. OpenAI-compatible at
+`https://tokenharbor.ai/v1`.
+
+Free models: DeepSeek V4 Flash, DeepSeek V4.1 Flash, MiMo V2.5 ("promotional models added over time").
+
+**Warning:** blocks requests from mainland China, Hong Kong, and Macau (`region_blocked`). Free requests may be logged.
+
+Source: <https://tokenharbor.ai/pricing>, <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [Aion Labs](https://www.aionlabs.ai/app/api-keys/)
+
+Permanent free tier, no credit card. **15 RPM, 20K tokens/day**. OpenAI-compatible at `https://api.aionlabs.ai/v1`.
+
+Models: aion-2.0, aion-3.0, aion-3.0-mini (128K ctx, reasoning), aion-rp-llama-3.1-8b. Tuned for
+roleplay/storytelling rather than coding.
+
+Source: <https://github.com/mnfst/awesome-free-llm-apis>
+
+*Checked Sep 21, 2026.*
+
+### [Experiential Labs](https://platform.experientiallabs.ai)
+
+YC-backed "open-source OpenRouter". Free plan: **~500 credits/month** (1 credit = $0.01), hard stop when
+exhausted, no auto-upgrade; new orgs get extra welcome credits. OpenAI-compatible at
+`https://api.experientiallabs.ai/v1`.
+
+$0-labelled models: Qwen3.8 27B, DeepSeek V4 Flash, GPT-5.6 Luna, GPT-6 Astra, Claude Fable 5.1
+(all 1M ctx) — but the monthly credit cap still applies.
+
+**Warning:** business model is free traffic in exchange for training traces; free-tier uptime is low
+(72–100 % by model, ~4.5 s TTFT). Prototyping only.
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
+### [Empero](https://free.empero.org)
+
+Community endpoint from German lab EmperoAI. **Completely free, no signup** — any string works as the API
+key (convention: `free`). OpenAI-compatible at `https://free.empero.org/v1`.
+
+Models rotate often: glm-5.3-flash, qwen3.8-flash, Qwen3.8-27B-FP8.
+
+**Warning:** prompts and responses are logged (IP hashed) to train their open models — never send private
+data. Frequent `upstream_down` / 503 under load.
+
+Source: <https://github.com/peter123023/awesome-free-llm-api>
+
+*Checked Sep 21, 2026.*
+
 ---
 
 ## License
