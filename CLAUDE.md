@@ -13,10 +13,11 @@ When adding a new provider to README.md, include:
 - Pricing/plan details (if applicable)
 - Free tier limits or usage restrictions
 - Source link for verification
-- Footnote with the date information was verified (format: `[^providername]: Check at MMM DD YYYY`)
+- A closing line with the date information was verified (format: `*Checked MMM DD, YYYY.*`)
 
 ## Structure
 
 README.md is organized into sections:
-- **Providers support coding plans**: Subscription-based coding plans
-- **Free providers**: Providers with free tiers or trials
+- **Claude Code Guest Passes** and **Claude AI Ecosystem**: Claude-specific perks and referrals
+- **Providers with Coding Plans**: Subscription-based coding plans
+- **Free Providers**: Providers with free tiers or trials (card-gated trial credits are included and say so)
