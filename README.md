@@ -132,12 +132,6 @@ GPT 6 Luna/5.6 Luna, plus limited-time free models.
 Endpoints: `https://opencode.ai/zen/go/v1/{chat/completions,messages,responses}`. Claude Code works natively via the
 Anthropic endpoint; also validated with Codex, Hermes, ZCode, Pi, jcode, Kilo Code CLI. Model format: `opencode-go/<model-id>`.
 
-My referral (**program ended** — opencode's referral page now says links no longer earn credit for either side):
-
-> ~~Invite friends to OpenCode Go. Earn $5 when a friend subscribes, and they'll get $5 too. Share your referral link; your friend joins and subscribes to Go; you both get a $5 usage credit to apply toward your Go usage limits.~~
->
-> ~~Referral link: <https://opencode.ai/go?ref=HE42WGS8BM>~~
-
 *Checked Sep 29, 2026.*
 
 ### [Synthetic](https://synthetic.new/)
