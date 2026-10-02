@@ -1,27 +1,14 @@
 # Penny-Pincher Provider
 
-Curated list of affordable and free LLM API providers — Claude Code guest passes,
-coding-plan subscriptions, and free-tier APIs. Maintained for developers who want
-capable models without premium pricing.
+Curated list of affordable and free LLM API providers — coding-plan subscriptions
+and free-tier APIs. Maintained for developers who want capable models without
+premium pricing.
 
 Contributions welcome — open a pull request or
 [issue](https://github.com/tiennm99/penny-pincher-provider/issues/new) to add or
 update an entry.
 
 ---
-
-## Claude Code Guest Passes
-
-One week of free Claude Pro (includes Claude Code). Eligible subscribers get passes via the `/passes`
-command in Claude Code. New users only; requires payment info but can be cancelled before the trial ends.
-
-**My passes:**
-
-- ~~<https://claude.ai/referral/ZkoAngod1A>~~ — out of stock as of 2026-04-30
-
-Have a spare pass? Open a PR adding your link, or open an issue.
-
-*Checked Sep 29, 2026.*
 
 ## Claude AI Ecosystem
 
@@ -165,32 +152,6 @@ OpenAI-compatible (`https://api.synthetic.new/openai/v1`) and Anthropic-compatib
 Xcode, Roo, KiloCode, Octofriend.
 
 > Referral: **$10.00** in subscription credit via <https://synthetic.new/?referral=CNBFyw28zF0dZoj>
-
-*Checked Sep 29, 2026.*
-
-### [BigModel.cn — GLM Coding Plan](https://www.bigmodel.cn/glm-coding)
-
-The Chinese (mainland) counterpart of Z.ai's GLM Coding Plan — same underlying Zhipu AI models, but billed in CNY through bigmodel.cn. Suited for users who can pay via Alipay / WeChat Pay or already have a 智谱 AI account.
-
-Credit-based plans since Jul 30, 2026 (monthly list price, per media reports — the official price page needs
-JavaScript): **Lite ¥118**, **Pro ¥538**, **Max ¥1,078**.
-Credits per 5 h / per week: Lite 2,000 / 10,000 · Pro 12,000 / 60,000 · Max 28,000 / 140,000; off-peak usage
-(outside Mon–Fri 14:00–18:00 UTC+8) costs 50% fewer credits. Legacy V1/V2 subscribers keep ¥49 / ¥149 / ¥469.
-
-All tiers support GLM-5.3 and GLM-5.3-Flash (GLM-5.2/5.1 route to GLM-5.3; GLM-5-Turbo/4.7 route to GLM-5.3-Flash).
-Anthropic endpoint `https://open.bigmodel.cn/api/anthropic`, OpenAI endpoint `https://open.bigmodel.cn/api/coding/paas/v4`.
-Tools: Claude Code, Kilo Code, OpenClaw (lower priority), OpenCode, TRAE, CodeBuddy, and others on the supported list.
-
-Referral program (challenge-based, resets every 30 invitees; terms as last seen, not re-verified Sep 2026):
-- Invited friend gets **5% off** their first GLM Coding Plan order.
-- Referrer gets **10% cashback** once 3 friends subscribe, plus an **additional 10%** of the total paid amount for every 30 invitees.
-- Rebate credit is usable for resource packs, API calls, and subscription renewals on the BigModel platform.
-
-Source: <https://www.bigmodel.cn/glm-coding>, <https://docs.bigmodel.cn/cn/coding-plan/overview>
-
-My referral:
-
->🚀 Join the GLM Coding Plan via my link — get 5% off your first order. Subscribe at https://www.bigmodel.cn/glm-coding?ic=VGRZKHKNKW (invitation code: `VGRZKHKNKW`).
 
 *Checked Sep 29, 2026.*
 
@@ -449,18 +410,6 @@ Wafer-scale chip inference. **Free Trial only**: **$5** in credits after adding 
 | `qwen-3.8-27b` | 5 | 30K | 1M | 64K |
 
 Total TPM (incl. cached) is 3x uncached (90K). Access stops when credits run out or expire until you buy credits.
-
-*Checked Sep 29, 2026.*
-
-### [BigModel.cn](https://www.bigmodel.cn/)
-
-Zhipu AI (智谱 AI). New users get a free token package to explore the API, playground, and AGI apps (reported as 20M, 25M via invite).
-
-Permanently free models: **GLM-4.7-Flash** (200K ctx), GLM-4-Flash-250414 (128K), GLM-Z1-Flash (128K), GLM-4.6V-Flash, GLM-4.1V-Thinking-Flash, GLM-4V-Flash, plus CogView-3-Flash (image) and CogVideoX-Flash (video). Concurrency limits apply per model. GLM-5.3-Flash is paid on the pay-as-you-go API.
-
-OpenAI-compatible at `https://open.bigmodel.cn/api/paas/v4`; Anthropic-compatible at `https://open.bigmodel.cn/api/anthropic`.
-
-> Referral: <https://www.bigmodel.cn/invite?icode=rIX6uZrLYfy8fQ6Urca4xf2gad6AKpjZefIo3dVEyA%3D>
 
 *Checked Sep 29, 2026.*
 

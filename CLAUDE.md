@@ -18,6 +18,6 @@ When adding a new provider to README.md, include:
 ## Structure
 
 README.md is organized into sections:
-- **Claude Code Guest Passes** and **Claude AI Ecosystem**: Claude-specific perks and referrals
+- **Claude AI Ecosystem**: Claude-specific tools and referrals
 - **Providers with Coding Plans**: Subscription-based coding plans
 - **Free Providers**: Providers with free tiers or trials (card-gated trial credits are included and say so)
