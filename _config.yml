@@ -3,6 +3,9 @@ description: A curated list of affordable (or almost free) LLM providers
 theme: minima
 show_downloads: false
 
+# Linked from the header nav (_includes/header.html) and 404.html.
+repository: tiennm99/penny-pincher-provider
+
 # GitHub Pages target. It only ever reads this file, so its values live here and
 # Cloudflare overrides them via _config.cloudflare.yml.
 url: https://tiennm99.github.io

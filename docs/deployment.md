@@ -96,5 +96,8 @@ which a Git-connected project rejects. Push to `main` instead.
   content, pulled into `index.md` by `include_relative`, which reads excluded files
   fine — the exclusion only stops the raw markdown shipping as a duplicate page.
 - `404.html` is served automatically by both hosts for unmatched routes.
+- `_includes/header.html` overrides minima's header. The stock nav lists every page
+  with a `title`, which put `404.html` in the menu as "Page not found"; the override
+  shows a single GitHub link built from `repository` in `_config.yml`.
 - Ruby is pinned to the `3.4` series in both workflows rather than an exact patch.
   Cloudflare's own build image is irrelevant here, since Actions does the building.
