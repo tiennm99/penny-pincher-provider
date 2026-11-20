@@ -210,6 +210,8 @@ V4 Pro, MiMo-V2.6-Pro / -Flash, Qwen3.8-27B / Flash, Nemotron 3 Ultra. OpenAI-co
 `https://api.nano-gpt.com/api/v1` (also `/messages` and `/responses`); use `https://api.nano-gpt.com/api/subscription/v1`
 to keep requests on the subscription only. Pay-as-you-go deposits start at $1 (card).
 
+> Referral: <https://nano-gpt.com/r/KRRRwQj4> (code: `KRRRwQj4`) — **5% off** eligible usage.
+
 Source: <https://nano-gpt.com/pricing>, <https://docs.nano-gpt.com/api-reference/endpoint/subscription-usage>
 
 *Checked Nov 20, 2026.*
