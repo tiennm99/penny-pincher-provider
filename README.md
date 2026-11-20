@@ -62,8 +62,6 @@ video. Overflow draws from purchased Credits (valid one year). Separate M Plan A
 (`https://api.minimax.io/anthropic`). Tools: MiniMax Code, Claude Code, Codex, Cursor, OpenCode, Pi, Hermes Agent,
 OpenClaw.
 
-> Referral (10% off) — **For Referred Users:** 10% off subscription + become a dev ambassador. **For Referrers:** 10% back in API voucher per paid referral, usable across all MiniMax models, plus priority access to events and model previews. [View details](https://platform.minimax.io/subscribe/token-plan?code=CAQ5sxHAq6&source=link)
-
 *Checked Nov 20, 2026.*
 
 ### [Kimi Code](https://www.kimi.com/code)
@@ -85,7 +83,8 @@ Models: `k3.1-pro` (K3.1 Pro, thinking only), `k3.1-pro-highspeed` (Pro+), `k3`,
 
 ### Alibaba Cloud Model Studio
 
-> Referral: Up to **$1,700** in free trial credits via <https://www.alibabacloud.com/campaign/benefits?referral_code=A92LU5> (code: `A92LU5`).
+> Referral: sign up through <https://www.alibabacloud.com/campaign/benefits?referral_code=A92LU5> (code: `A92LU5`) to try
+> Token Plan, with Qwen and leading third-party models through OpenAI-compatible APIs.
 
 #### [Token Plan](https://www.alibabacloud.com/help/en/model-studio/token-plan-overview)
 
@@ -152,7 +151,8 @@ OpenAI-compatible (`https://api.synthetic.new/openai/v1`) and Anthropic-compatib
 (`https://api.synthetic.new/anthropic/v1`) — guides for Claude Code, Crush, OpenCode, GitHub Copilot, OpenClaw,
 Xcode, Octofriend.
 
-> Referral: **$10.00** in subscription credit via <https://synthetic.new/?referral=CNBFyw28zF0dZoj>
+> Referral: subscribe via <https://synthetic.new/?referral=CNBFyw28zF0dZoj> and we each get **$10.00** in subscription
+> credit on the Standard plan or higher, or **$3.00** on the Go plan. It doesn't stack with other offers.
 
 *Checked Nov 20, 2026.*
 
@@ -168,9 +168,6 @@ Models: Auto, Dola-Seed-2.0-Pro/Lite/Code, GLM-5.2, GLM-5.3-Flash, DeepSeek-V4.1
 Endpoints: OpenAI `https://ark.ap-southeast.bytepluses.com/api/coding/v3`, Anthropic `.../api/coding`.
 Tools: Claude Code, Cursor, Cline, Codex, Roo Code, Kilo Code, OpenCode, OpenClaw, TraeCode, Hermes Agent.
 
-> Referral: <https://www.byteplus.com/activity/codingplan?ac=MMAUCIS9NT1S&rc=2739UWRE> — campaign (10% off first
-> order) is scheduled to end **Sep 30, 2026**.
-
 *Checked Nov 20, 2026.*
 
 ### [Volcengine Ark — Coding Plan](https://www.volcengine.com/activity/codingplan)
@@ -180,7 +177,7 @@ ByteDance's mainland-China sibling of the BytePlus plan (火山引擎方舟 Codi
 ~18,000/month; Pro ~6,000 / ~45,000 / ~90,000. Coding tools only.
 
 Models: DeepSeek-V4.1-Flash-1017, GLM-5.3 series, Doubao-Seed-Evolving, Kimi-K3.1-pro, and more (Doubao Seed 2.0,
-MiniMax, Kimi, DeepSeek series), or Auto. Tools: Claude Code, Codex CLI, Cursor, TRAE, OpenCode, OpenClaw, Hermes Agent. Invite program: 5% voucher for the referrer, 5% off for the friend.
+MiniMax, Kimi, DeepSeek series), or Auto. Tools: Claude Code, Codex CLI, Cursor, TRAE, OpenCode, OpenClaw, Hermes Agent.
 A separate **Agent Plan** (Small / Medium / Large / Max, "限时 9.9 元起") adds multimodal models and web-search harness.
 
 Source: <https://www.volcengine.com/activity/codingplan>, <https://www.volcengine.com/docs/82379/2165245>
@@ -219,9 +216,9 @@ Source: <https://nano-gpt.com/pricing>, <https://docs.nano-gpt.com/api-reference
 
 ### [Xiaomi MiMo Open Platform](https://platform.xiaomimimo.com)
 
-I'm on Xiaomi MiMo Open Platform — running Xiaomi's flagship MiMo V2.6 and the rest of the lineup. Sign up with my code and you'll instantly get $2 in API credits.
-
-After signup, enter the code at the bottom-left of the console. Credits valid 40 days.
+Invite builders to try MiMo V2.6, Xiaomi's flagship model: friends who sign up with my code get **10% off** their first
+paid Token Plan order, applied automatically at checkout. Auto-bind via the link, or enter the code in the console
+sidebar after signup.
 
 **Token Plan** (monthly): Lite $6 / ¥39 (4.1B credits), Standard $16 / ¥99 (11B), Pro $50 / ¥329 (38B),
 Max $100 / ¥659 (82B). Annual plans 12% off; 12% off first Individual purchase; 0.8× consumption 00:00–08:00
@@ -277,6 +274,26 @@ Endpoints: OpenAI `https://tokenhub-intl.tencentcloudmaas.com/plan/v3`, Anthropi
 Tools: Claude Code, Codex, Cursor, Cline, OpenCode, Kilo Code, TRAE, CodeBuddy, OpenClaw, and more.
 
 Source: <https://www.tencentcloud.com/document/product/1300/81315>
+
+*Checked Nov 20, 2026.*
+
+### [LLM Gateway — DevPass](https://devpass.llmgateway.io/pricing)
+
+Open-source (AGPLv3 core, self-hostable) LLM gateway with a flat-price plan for coding agents. **Lite $29 / Pro $79 /
+Max $179 per month**, each including **2×** its price in model usage ($58 / $158 / $358) metered at provider list rates.
+Daily pacing caps each rolling 24 h at 8% / 9% / 10% of the monthly allowance; models priced $5+/M input or $15+/M
+output share a weekly fair-use slice (10% / 12% / 15%). Unused allowance carries over up to the plan price. Monthly
+billing only; no provider pinning on DevPass.
+
+Without a plan: pay-as-you-go at provider list rates plus a **5% fee on credit top-ups** (+1.5% for non-US cards,
+$10 minimum); BYOK is free. No free models are live — the catalogue's $0 models were all deactivated by Oct 15, 2026.
+
+OpenAI-compatible at `https://api.llmgateway.io/v1`, Anthropic Messages at `/v1/messages`. Works with Claude Code,
+OpenCode, Cursor, Cline, Codex CLI, and other OpenAI/Anthropic-compatible tools.
+
+> Referral: <https://llmgateway.io/?ref=jdsmz02j3nmaB9BqziZt>
+
+Source: <https://devpass.llmgateway.io/pricing.md>, <https://llmgateway.io/pricing.md>
 
 *Checked Nov 20, 2026.*
 
